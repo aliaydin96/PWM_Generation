@@ -119,7 +119,7 @@ void Gpio_select(void)
     EDIS; 
 }
 interrupt void cpu_timer0_isr(void){
-    int up = 1;
+    //int up = 1;
     CpuTimer0.InterruptCount++;
     EALLOW;
     SysCtrlRegs.WDKEY = 0xAA;
@@ -138,17 +138,21 @@ interrupt void cpu_timer0_isr(void){
 
 void Setup_ePWM1(void){
     EPwm1Regs.TBCTL.all = 0;
-    EPwm1Regs.TBCTL.bit.CLKDIV = 0;            //CLKDIV = 1
-    EPwm1Regs.TBCTL.bit.HSPCLKDIV = 1;        //HSPCLKDIV = 2
+    EPwm1Regs.TBCTL.bit.CLKDIV = 7;            //CLKDIV = 14
+    EPwm1Regs.TBCTL.bit.HSPCLKDIV = 7;        //HSPCLKDIV = 128
     EPwm1Regs.TBCTL.bit.CTRMODE = 2;         // Count up and down operation (10) = 2
     EPwm1Regs.AQCTLA.all = 0x0060;          //set ePWM1A to 1 on “CMPA - up match”
                                            //clear ePWM1A on event “CMPA - down match”
     EPwm1Regs.AQCTLB.all = 0x0600;         //clear ePWM1B on “CMPB - up match”
                                             //set ePWM1B to 1 on event “CMPB - down match”
                                             // we made reverse action to obtain complementary wave
-    EPwm1Regs.TBPRD = 15000; 
+    int fpwm = 1;       // in Hz' frequency of pwm signal
+    long fcpu = 150000000; //in Hz' we determine up in configcputimer
+    EPwm1Regs.TBPRD = 0.5 * fcpu / (fpwm * EPwm1Regs.TBCTL.bit.CLKDIV * EPwm1Regs.TBCTL.bit.HSPCLKDIV);
 
-    /*  TBPRD = 0.5*fcpu/(fpwm*CLKDIV*HSPCLKDIV)
+    /* TBPRD max 65535 because it is provided 16 bit register
+     *
+     *  TBPRD = 0.5*fcpu/(fpwm*CLKDIV*HSPCLKDIV)
          * fcpu = 150 MHz , fpwm = 1 KHz
 
          */

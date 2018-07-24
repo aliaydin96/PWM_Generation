@@ -28,52 +28,52 @@
 		<link>
 			<name>DSP2833x_ADC_cal.asm</name>
 			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm</locationURI>
+			<location>C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm</location>
 		</link>
 		<link>
 			<name>DSP2833x_CodeStartBranch.asm</name>
 			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm</locationURI>
+			<location>C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm</location>
 		</link>
 		<link>
 			<name>DSP2833x_CpuTimers.c</name>
 			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c</locationURI>
+			<location>C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c</location>
 		</link>
 		<link>
 			<name>DSP2833x_DefaultIsr.c</name>
 			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c</locationURI>
+			<location>C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c</location>
 		</link>
 		<link>
 			<name>DSP2833x_GlobalVariableDefs.c</name>
 			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c</locationURI>
+			<location>C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c</location>
 		</link>
 		<link>
 			<name>DSP2833x_Headers_nonBIOS.cmd</name>
 			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd</locationURI>
+			<location>C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd</location>
 		</link>
 		<link>
 			<name>DSP2833x_PieCtrl.c</name>
 			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c</locationURI>
+			<location>C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c</location>
 		</link>
 		<link>
 			<name>DSP2833x_PieVect.c</name>
 			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c</locationURI>
+			<location>C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c</location>
 		</link>
 		<link>
 			<name>DSP2833x_SysCtrl.c</name>
 			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c</locationURI>
+			<location>C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c</location>
 		</link>
 		<link>
 			<name>DSP2833x_usDelay.asm</name>
 			<type>1</type>
-			<locationURI>PARENT-7-PROJECT_LOC/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm</locationURI>
+			<location>C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm</location>
 		</link>
 	</linkedResources>
 </projectDescription>

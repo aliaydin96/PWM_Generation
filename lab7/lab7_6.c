@@ -128,8 +128,8 @@ interrupt void cpu_timer0_isr(void){
 
 void Setup_ePWM1(void){
     EPwm1Regs.TBCTL.all = 0;
-    EPwm1Regs.TBCTL.bit.CLKDIV = 1;            //CLKDIV = 2
-    EPwm1Regs.TBCTL.bit.HSPCLKDIV = 2;        //HSPCLKDIV = 4
+    EPwm1Regs.TBCTL.bit.CLKDIV = 7;            //CLKDIV = 14
+    EPwm1Regs.TBCTL.bit.HSPCLKDIV = 7;        //HSPCLKDIV = 128
     EPwm1Regs.TBCTL.bit.CTRMODE = 2;         // Count up and down operation (10) = 2
     EPwm1Regs.AQCTLA.all = 0x0060;          //set ePWM1A to 1 on “CMPA - up match”
                                            //clear ePWM1A on event “CMPA - down match”
@@ -137,13 +137,20 @@ void Setup_ePWM1(void){
     EPwm1Regs.DBFED = 750;                  // Falling Edge Delay = TTBCLK x DBFED
                                            // TTBCLK = 150 MHz to give 10 us delay we can use that number
     EPwm1Regs.DBCTL.all = 0x000B;          // S5 = S4 = S2 = 0    S0 = S1 = S3 = 1  RED & FED active also Active high complementary mode also PWMxA is source for RED and FED
-    EPwm1Regs.TBPRD = 15000;
 
-    /*  TBPRD = 0.5*fcpu/(fpwm*CLKDIV*HSPCLKDIV)
+    int fpwm = 1;       // in Hz' frequency of pwm signal
+    long fcpu = 150000000; //in Hz' we determine up in configcputimer
+
+    EPwm1Regs.TBPRD = 0.5 * fcpu / (fpwm * EPwm1Regs.TBCTL.bit.CLKDIV * EPwm1Regs.TBCTL.bit.HSPCLKDIV);
+
+    /*  TBPRD max 65535 because it is provided 16 bit register
+     *
+     *
+     * TBPRD = 0.5*fcpu/(fpwm*CLKDIV*HSPCLKDIV)
          * fcpu = 60 MHz , fpwm = 1 KHz
 
          */
-    EPwm1Regs.CMPA.half.CMPA = EPwm1Regs.TBPRD/2;   //100%  duty cycle first
+    EPwm1Regs.CMPA.half.CMPA = EPwm1Regs.TBPRD/2;
 }
 //===========================================================================
 // End of SourceCode.
