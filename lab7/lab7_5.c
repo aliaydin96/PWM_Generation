@@ -17,6 +17,18 @@
 //  3.0 | 02 May 2008 | F.B. | Lab5_1 for F28335;
 //  3.1 | 06 Nov 2009 | F.B  | Lab5_1 for F28335 and PE revision5
 //###########################################################################
+
+
+ long fpwm = 1500;      // in Hz
+ int CLKDIV = 0;
+ int HSPCLKDIV = 0;
+
+
+
+
+
+
+
 #include "DSP2833x_Device.h"
 
 // Prototype statements for functions found within this file.
@@ -119,38 +131,38 @@ void Gpio_select(void)
     EDIS; 
 }
 interrupt void cpu_timer0_isr(void){
-    //int up = 1;
     CpuTimer0.InterruptCount++;
     EALLOW;
     SysCtrlRegs.WDKEY = 0xAA;
-    EDIS;/*
-    if(up){
-        if (EPwm1Regs.CMPA.half.CMPA < EPwm1Regs.TBPRD )   EPwm1Regs.CMPA.half.CMPA++;   // %0 to %100 increment duty cycle
-        else up =0;
-    }
-    else{
-        if (EPwm1Regs.CMPA.half.CMPA > 0) EPwm1Regs.CMPA.half.CMPA--;                  // %100 to %0 decrement duty cycle
-        else up =1; 
-    }*/
+    EDIS;
 
     PieCtrlRegs.PIEACK.all = PIEACK_GROUP1;
 }
 
 void Setup_ePWM1(void){
     EPwm1Regs.TBCTL.all = 0;
-    EPwm1Regs.TBCTL.bit.CLKDIV = 7;            //CLKDIV = 14
-    EPwm1Regs.TBCTL.bit.HSPCLKDIV = 7;        //HSPCLKDIV = 128
+
     EPwm1Regs.TBCTL.bit.CTRMODE = 2;         // Count up and down operation (10) = 2
     EPwm1Regs.AQCTLA.all = 0x0060;          //set ePWM1A to 1 on “CMPA - up match”
                                            //clear ePWM1A on event “CMPA - down match”
     EPwm1Regs.AQCTLB.all = 0x0600;         //clear ePWM1B on “CMPB - up match”
                                             //set ePWM1B to 1 on event “CMPB - down match”
                                             // we made reverse action to obtain complementary wave
-
-    int fpwm = 1;       // in Hz
+    if ((75000000 >= fpwm) && (fpwm >= 1200)){
+        EPwm1Regs.TBCTL.bit.CLKDIV = 0;
+        CLKDIV = 1;
+        EPwm1Regs.TBCTL.bit.HSPCLKDIV = 0;
+        HSPCLKDIV = 1;
+    }
+    else if((1200 > fpwm) && (fpwm > 0)){
+        EPwm1Regs.TBCTL.bit.CLKDIV = 7;
+        CLKDIV = 14;
+        EPwm1Regs.TBCTL.bit.HSPCLKDIV = 7;
+        HSPCLKDIV = 128;
+    }
     long fcpu = 150000000; // we determine up in configcputimer
 
-    EPwm1Regs.TBPRD = 0.5 * fcpu / (fpwm * EPwm1Regs.TBCTL.bit.CLKDIV * EPwm1Regs.TBCTL.bit.HSPCLKDIV);
+    EPwm1Regs.TBPRD = 0.5 * fcpu / (fpwm * CLKDIV * HSPCLKDIV);
 
     /*  TBPRD = 0.5*fcpu/(fpwm*CLKDIV*HSPCLKDIV)
          * fcpu = 60 MHz , fpwm = 1 KHz

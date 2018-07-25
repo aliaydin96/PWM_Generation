@@ -17,6 +17,17 @@
 //  3.0 | 02 May 2008 | F.B. | Lab5_1 for F28335;
 //  3.1 | 06 Nov 2009 | F.B  | Lab5_1 for F28335 and PE revision5
 //###########################################################################
+
+
+
+ long fpwm = 5000;      // in Hz
+ int CLKDIV = 0;
+ int HSPCLKDIV = 0;
+
+
+
+
+
 #include "DSP2833x_Device.h"
 
 // Prototype statements for functions found within this file.
@@ -138,10 +149,22 @@ void Setup_ePWM1(void){
                                            // TTBCLK = 150 MHz to give 10 us delay we can use that number
     EPwm1Regs.DBCTL.all = 0x000B;          // S5 = S4 = S2 = 0    S0 = S1 = S3 = 1  RED & FED active also Active high complementary mode also PWMxA is source for RED and FED
 
-    int fpwm = 1;       // in Hz' frequency of pwm signal
-    long fcpu = 150000000; //in Hz' we determine up in configcputimer
+    if ((75000000 >= fpwm) && (fpwm >= 1200)){
+        EPwm1Regs.TBCTL.bit.CLKDIV = 0;
+        CLKDIV = 1;
+        EPwm1Regs.TBCTL.bit.HSPCLKDIV = 0;
+        HSPCLKDIV = 1;
+    }
+    else if((1200 > fpwm) && (fpwm > 0)){
+        EPwm1Regs.TBCTL.bit.CLKDIV = 7;
+        CLKDIV = 14;
+        EPwm1Regs.TBCTL.bit.HSPCLKDIV = 7;
+        HSPCLKDIV = 128;
+    }
 
-    EPwm1Regs.TBPRD = 0.5 * fcpu / (fpwm * EPwm1Regs.TBCTL.bit.CLKDIV * EPwm1Regs.TBCTL.bit.HSPCLKDIV);
+    long fcpu = 150000000; // we determine up in configcputimer
+
+    EPwm1Regs.TBPRD = (0.5 * fcpu) / (fpwm * CLKDIV * HSPCLKDIV);        //the maximum number for TBPRD is (216 -1) or 65535
 
     /*  TBPRD max 65535 because it is provided 16 bit register
      *

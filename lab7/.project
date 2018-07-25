@@ -75,5 +75,10 @@
 			<type>1</type>
 			<location>C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm</location>
 		</link>
+		<link>
+			<name>IQmath_fpu32.lib</name>
+			<type>1</type>
+			<location>C:/tidcs/c28/IQmath/v15a/lib/IQmath_fpu32.lib</location>
+		</link>
 	</linkedResources>
 </projectDescription>
