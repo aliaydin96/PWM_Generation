@@ -5,30 +5,22 @@
  *      Author: ROG
  */
 
-//
-//      Lab5_1: TMS320F28335
-//      (c) Frank Bormann
-//
-//###########################################################################
-//
-// FILE:    Lab5_1.c
-//
-// TITLE:   DSP28335ControlCARD; Digital Output
-//          4 - bit - counter at 4 LEDs LD1(GPIO9), LD2(GPIO11), LD3(GPIO34)
-//          and LD4 (GPIO49)
-//          software delay loop; watchdog disabled
-//          template file for Lab5_1
-//###########################################################################
-//  Ver | dd mmm yyyy | Who  | Description of changes
-// =====|=============|======|===============================================
-//  3.0 | 02 May 2008 | F.B. | Lab5_1 for F28335;
-//  3.1 | 06 Nov 2009 | F.B  | Lab5_1 for F28335 and PE revision5
-//###########################################################################
 
 
  long fpwm = 30000;      // in Hz
  //for 50 Hz 26000
  long fcpu = 150000000; // we determine up in configcputimer
+
+
+ static unsigned int index = 0;
+ static unsigned int index_2 = 156;
+ static unsigned int index_3 = 338;
+/*
+ * We can arrange phase difference by playing index values.
+ * We can select index values between 0 and 512.
+ * */
+
+
 
 
  int CLKDIV = 0;
@@ -41,9 +33,6 @@
 _iq30 sine_table[512];
 
 
-static unsigned int index = 0;
-static unsigned int index_2 = 160;
-static unsigned int index_3 = 338;
 // Prototype statements for functions found within this file.
 void Gpio_select(void);
 extern void InitSysCtrl(void);
