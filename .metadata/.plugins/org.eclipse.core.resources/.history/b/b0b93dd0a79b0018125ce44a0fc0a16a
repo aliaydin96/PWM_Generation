@@ -12,7 +12,7 @@
                                                                                                //
 ////////////////////////////////////////////////////////////////////////////////////////////   //
                                                                                           //   //
- long switchingFrequency = 50000;      // switching frequency in Hz                       //   //
+ long switchingFrequency = 15000;      // switching frequency in Hz                       //   //
                                                                                           //   //
  double fundamentalSinusoidalFrequency = 50;  // sinusoidal output frequency in Hz        //   //
                                                                                           //   //

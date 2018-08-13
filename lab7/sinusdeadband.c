@@ -100,8 +100,11 @@ void Gpio_select(void)
     EALLOW;
     GpioCtrlRegs.GPAMUX1.all = 0;       // GPIO15 ... GPIO0 = General Puropse I/O
     GpioCtrlRegs.GPAMUX1.bit.GPIO0 = 1; // ePWM1A active
+    GpioCtrlRegs.GPAMUX1.bit.GPIO1 = 1; // ePWM1B active
     GpioCtrlRegs.GPAMUX1.bit.GPIO2 = 1; // ePWM2A active
+    GpioCtrlRegs.GPAMUX1.bit.GPIO3 = 1; // ePWM2B active
     GpioCtrlRegs.GPAMUX1.bit.GPIO4 = 1; // ePWM3A active
+    GpioCtrlRegs.GPAMUX1.bit.GPIO5 = 1; // ePWM3B active
     GpioCtrlRegs.GPAMUX2.all = 0;       // GPIO31 ... GPIO16 = General Purpose I/O
     GpioCtrlRegs.GPBMUX1.all = 0;       // GPIO47 ... GPIO32 = General Purpose I/O
     GpioCtrlRegs.GPBMUX2.all = 0;       // GPIO63 ... GPIO48 = General Purpose I/O
@@ -124,16 +127,35 @@ void Setup_ePWM(void){
     EPwm1Regs.TBCTL.all = 0;
     EPwm1Regs.TBCTL.bit.CTRMODE = 2;         // Count up and down operation (10) = 2
     EPwm1Regs.AQCTLA.all = 0x0060;          //set ePWM1A to 1 on “CMPA - up match”
-                                           //clear ePWM1A on event “CMPA - down match”
+                                            //clear ePWM1A on event “CMPA - down match”
+    EPwm1Regs.AQCTLB.all = 0x0090;         //clear ePWM1B on “CMPA - up match”
+                                            //set ePWM1B to 1 on event “CMPA - down match”
+                                            // we made reverse action to obtain complementary wave
+    EPwm1Regs.DBRED = 50;                  // Rising Edge Delay = TTBCLK x DBRED
+    EPwm1Regs.DBFED = 50;                  // Falling Edge Delay = TTBCLK x DBFED
+                                           // TTBCLK = 13.3333ns to give 666ns delay we can use that number
+    EPwm1Regs.DBCTL.all = 0x000B;          // S5 = S4 = S2 = 0    S0 = S1 = S3 = 1  RED & FED active also Active high complementary mode also PWMxA is source for RED and FED
 
     EPwm2Regs.TBCTL.all = 0;
     EPwm2Regs.TBCTL.bit.CTRMODE = 2;         // Count up and down operation (10) = 2
     EPwm2Regs.AQCTLA.all = 0x0060;          //set ePWM1A to 1 on “CMPA - up match”
                                            //clear ePWM1A on event “CMPA - down match”
+    EPwm2Regs.AQCTLB.all = 0x0090;         //clear ePWM1B on “CMPA - up match”
+                                            //set ePWM1B to 1 on event “CMPA - down match”
+                                            // we made reverse action to obtain complementary wave
+    EPwm2Regs.DBRED = 50;                  // Rising Edge Delay = TTBCLK x DBRED
+    EPwm2Regs.DBFED = 50;                  // Falling Edge Delay = TTBCLK x DBFED
+                                           // TTBCLK = 13.3333ns to give 666ns delay we can use that number
     EPwm3Regs.TBCTL.all = 0;
     EPwm3Regs.TBCTL.bit.CTRMODE = 2;         // Count up and down operation (10) = 2
     EPwm3Regs.AQCTLA.all = 0x0060;          //set ePWM1A to 1 on “CMPA - up match”
                                            //clear ePWM1A on event “CMPA - down match”
+    EPwm3Regs.AQCTLB.all = 0x0090;         //clear ePWM1B on “CMPA - up match”
+                                            //set ePWM1B to 1 on event “CMPA - down match”
+                                            // we made reverse action to obtain complementary wave
+    EPwm3Regs.DBRED = 50;                  // Rising Edge Delay = TTBCLK x DBRED
+    EPwm3Regs.DBFED = 50;                  // Falling Edge Delay = TTBCLK x DBFED
+                                           // TTBCLK = 13.3333ns to give 666ns delay we can use that number
 
     if ((75000000 >= switchingFrequency) && (switchingFrequency >= 1200)){
         EPwm1Regs.TBCTL.bit.CLKDIV = 0;
