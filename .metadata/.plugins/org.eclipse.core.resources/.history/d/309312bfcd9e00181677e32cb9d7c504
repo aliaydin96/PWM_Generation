@@ -24,7 +24,7 @@ C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c
 C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c \
 C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c \
 C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c \
-../sinus.c 
+../sinus2.c 
 
 C_DEPS += \
 ./DSP2833x_CpuTimers.d \
@@ -33,7 +33,7 @@ C_DEPS += \
 ./DSP2833x_PieCtrl.d \
 ./DSP2833x_PieVect.d \
 ./DSP2833x_SysCtrl.d \
-./sinus.d 
+./sinus2.d 
 
 OBJS += \
 ./DSP2833x_ADC_cal.obj \
@@ -45,7 +45,7 @@ OBJS += \
 ./DSP2833x_PieVect.obj \
 ./DSP2833x_SysCtrl.obj \
 ./DSP2833x_usDelay.obj \
-./sinus.obj 
+./sinus2.obj 
 
 ASM_DEPS += \
 ./DSP2833x_ADC_cal.d \
@@ -62,7 +62,7 @@ OBJS__QUOTED += \
 "DSP2833x_PieVect.obj" \
 "DSP2833x_SysCtrl.obj" \
 "DSP2833x_usDelay.obj" \
-"sinus.obj" 
+"sinus2.obj" 
 
 C_DEPS__QUOTED += \
 "DSP2833x_CpuTimers.d" \
@@ -71,7 +71,7 @@ C_DEPS__QUOTED += \
 "DSP2833x_PieCtrl.d" \
 "DSP2833x_PieVect.d" \
 "DSP2833x_SysCtrl.d" \
-"sinus.d" 
+"sinus2.d" 
 
 ASM_DEPS__QUOTED += \
 "DSP2833x_ADC_cal.d" \
@@ -90,6 +90,6 @@ C_SRCS__QUOTED += \
 "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c" \
 "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c" \
 "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c" \
-"../sinus.c" 
+"../sinus2.c" 
 
 
