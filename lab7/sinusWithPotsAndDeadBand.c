@@ -1,9 +1,10 @@
 /*
- * sinus2.c
+ * sinusWithPotsAndDeadBand.c
  *
- *  Created on: Aug 1, 2018
+ *  Created on: Oct 3, 2018
  *      Author: ROG
  */
+
 
 #include "DSP2833x_Device.h"
 #include <math.h>
@@ -12,14 +13,19 @@
                                                                                                //
 ////////////////////////////////////////////////////////////////////////////////////////////   //
                                                                                           //   //
- long switchingFrequency;// = 15000;      // switching frequency in Hz                       //   //
+ long switchingFrequency=100000;// = 48000;      // switching frequency in Hz                       //   //
                                                                                           //   //
- float fundamentalSinusoidalFrequency;// = 50;  // sinusoidal output frequency in Hz        //   //
+ float fundamentalSinusoidalFrequency = 50;  // sinusoidal output frequency in Hz        //   //
                                                                                           //   //
- float phaseAngle = 0;   // starting angle of sinus                                       //   //
+ double phaseAngle = 0;   // starting angle of sinus                                       //   //
                                                                                           //   //
  float fundamentalSinusoidalMagnitude = 3.3;//Peaktopeak Value of output sinus waveform     //   //
-                                                                                          //   //
+
+ long RisingEdgeDelay = 50;         // Rising Edge Delay = TTBCLK x DBRED(=RisingEdgeDelay)
+
+ long FallingEdgeDelay = 50;        // Falling Edge Delay = TTBCLK x DBFED(=FallingEdgeDelay)
+                                    // TTBCLK = 13.3333ns to give 666ns delay we can use that number
+
  ///////////////////////////////////////////////////////////////////////////////////////////   //
                                                                                                //
  ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -29,7 +35,7 @@
 
  double counter = 0;
 
- float frequencyModulationRatio =0;
+ double frequencyModulationRatio =0;
  float magnitudeModulationRatio = 0;
 
  float sinus=0;
@@ -61,6 +67,7 @@ interrupt void adc_isr(void);
 void main(void)
 {
 
+
         InitSysCtrl();      // Basic Core Initialization
         EALLOW;
         SysCtrlRegs.WDCR = 0x00AF;
@@ -89,13 +96,13 @@ void main(void)
 
         AdcRegs.ADCTRL3.bit.ADCCLKPS = 3;       // set FCLK to 12.5 MHz
 
-        AdcRegs.ADCMAXCONV.all = 0x0003; // 2 conversions
+        AdcRegs.ADCMAXCONV.all = 0x0003; // 4 conversions
 
         AdcRegs.ADCCHSELSEQ1.bit.CONV00 = 0; // 1st channel ADCINA0
         AdcRegs.ADCCHSELSEQ1.bit.CONV01 = 1; // 2nd channel ADCINA1
         AdcRegs.ADCCHSELSEQ1.bit.CONV02 = 2;
         AdcRegs.ADCCHSELSEQ1.bit.CONV03 = 3;
-        EPwm4Regs.TBCTL.all = 0xC030;   // Configure timer control register
+        EPwm5Regs.TBCTL.all = 0xC030;   // Configure timer control register
         /*
          bit 15-14     11:     FREE/SOFT, 11 = ignore emulation suspend
          bit 13        0:      PHSDIR, 0 = count down after sync event
@@ -108,10 +115,10 @@ void main(void)
          bit 1-0       00:     CTRMODE, 00 = count up mode
         */
 
-        EPwm4Regs.TBPRD = 2999; // TPPRD +1  =  TPWM / (HSPCLKDIV * CLKDIV * TSYSCLK)
+        EPwm5Regs.TBPRD = 8999; // TPPRD +1  =  TPWM / (HSPCLKDIV * CLKDIV * TSYSCLK)
                                 //           =  20 µs / 6.667 ns
 
-        EPwm4Regs.ETPS.all = 0x0100;            // Configure ADC start by ePWM2
+        EPwm5Regs.ETPS.all = 0x0100;            // Configure ADC start by ePWM2
         /*
          bit 15-14     00:     EPWMxSOCB, read-only
          bit 13-12     00:     SOCBPRD, don't care
@@ -122,7 +129,7 @@ void main(void)
          bit 1-0       00:     INTPRD, don't care
         */
 
-        EPwm4Regs.ETSEL.all = 0x0A00;           // Enable SOCA to ADC
+        EPwm5Regs.ETSEL.all = 0x0A00;           // Enable SOCA to ADC
         /*
          bit 15        0:      SOCBEN, 0 = disable SOCB
          bit 14-12     000:    SOCBSEL, don't care
@@ -132,8 +139,6 @@ void main(void)
          bit 3         0:      INTEN, 0 = disable interrupt
          bit 2-0       000:    INTSEL, don't care
         */
-
-
 
  /////////////////////////////////////////////////////////////////////////////////////////
         EALLOW;
@@ -147,22 +152,11 @@ void main(void)
         EINT;
         ERTM;
 
-        frequencyModulationRatio = fundamentalSinusoidalFrequency / switchingFrequency;
-
-        magnitudeModulationRatio = fundamentalSinusoidalMagnitude / maximumDeviceVoltage;
-
         while(1)
         {
                 EALLOW;
                 SysCtrlRegs.WDKEY = 0x55;   // service WD #1
                 EDIS;
-
-                frequencyModulationRatio = fundamentalSinusoidalFrequency / switchingFrequency;
-
-                magnitudeModulationRatio = fundamentalSinusoidalMagnitude / maximumDeviceVoltage;
-
-
-
         }
 
 }
@@ -173,8 +167,11 @@ void Gpio_select(void)
     EALLOW;
     GpioCtrlRegs.GPAMUX1.all = 0;       // GPIO15 ... GPIO0 = General Puropse I/O
     GpioCtrlRegs.GPAMUX1.bit.GPIO0 = 1; // ePWM1A active
+    GpioCtrlRegs.GPAMUX1.bit.GPIO1 = 1; // ePWM1B active
     GpioCtrlRegs.GPAMUX1.bit.GPIO2 = 1; // ePWM2A active
+    GpioCtrlRegs.GPAMUX1.bit.GPIO3 = 1; // ePWM2B active
     GpioCtrlRegs.GPAMUX1.bit.GPIO4 = 1; // ePWM3A active
+    GpioCtrlRegs.GPAMUX1.bit.GPIO5 = 1; // ePWM3B active
     GpioCtrlRegs.GPAMUX2.all = 0;       // GPIO31 ... GPIO16 = General Purpose I/O
     GpioCtrlRegs.GPBMUX1.all = 0;       // GPIO47 ... GPIO32 = General Purpose I/O
     GpioCtrlRegs.GPBMUX2.all = 0;       // GPIO63 ... GPIO48 = General Purpose I/O
@@ -194,39 +191,49 @@ void Setup_ePWM(void){
     EDIS;
 
     EPwm1Regs.TBCTL.all = 0;
-    EPwm1Regs.TBCTL.bit.CTRMODE = 2;         // Count up and down operation (10) = 2
+    EPwm1Regs.TBCTL.bit.CTRMODE = 0;         // Count up and down operation (10) = 2
     EPwm1Regs.AQCTLA.all = 0x0060;          //set ePWM1A to 1 on “CMPA - up match”
                                            //clear ePWM1A on event “CMPA - down match”
+    EPwm1Regs.AQCTLB.all = 0x0090;         //clear ePWM1B on “CMPA - up match”
+                                            //set ePWM1B to 1 on event “CMPA - down match”
+                                            // we made reverse action to obtain complementary wave
+    EPwm1Regs.DBRED = RisingEdgeDelay;                  // Rising Edge Delay = TTBCLK x DBRED
+    EPwm1Regs.DBFED = FallingEdgeDelay;                  // Falling Edge Delay = TTBCLK x DBFED
+                                           // TTBCLK = 13.3333ns to give 666ns delay we can use that number
+    EPwm1Regs.DBCTL.all = 0x000B;          // S5 = S4 = S2 = 0    S0 = S1 = S3 = 1  RED & FED active also Active high complementary mode also PWMxA is source for RED and FED
 
     EPwm2Regs.TBCTL.all = 0;
-    EPwm2Regs.TBCTL.bit.CTRMODE = 2;         // Count up and down operation (10) = 2
+    EPwm2Regs.TBCTL.bit.CTRMODE = 0;         // Count up and down operation (10) = 2
     EPwm2Regs.AQCTLA.all = 0x0060;          //set ePWM1A to 1 on “CMPA - up match”
                                            //clear ePWM1A on event “CMPA - down match”
+    EPwm2Regs.AQCTLB.all = 0x0090;         //clear ePWM1B on “CMPA - up match”
+                                            //set ePWM1B to 1 on event “CMPA - down match”
+                                            // we made reverse action to obtain complementary wave
+    EPwm2Regs.DBRED = RisingEdgeDelay;                  // Rising Edge Delay = TTBCLK x DBRED
+    EPwm2Regs.DBFED = FallingEdgeDelay;                  // Falling Edge Delay = TTBCLK x DBFED
+                                           // TTBCLK = 13.3333ns to give 666ns delay we can use that number
+
     EPwm3Regs.TBCTL.all = 0;
-    EPwm3Regs.TBCTL.bit.CTRMODE = 2;         // Count up and down operation (10) = 2
+    EPwm3Regs.TBCTL.bit.CTRMODE = 0;         // Count up and down operation (10) = 2
     EPwm3Regs.AQCTLA.all = 0x0060;          //set ePWM1A to 1 on “CMPA - up match”
                                            //clear ePWM1A on event “CMPA - down match”
-/*
-    if ((75000000 >= switchingFrequency) && (switchingFrequency >= 1200)){
-        EPwm1Regs.TBCTL.bit.CLKDIV = 0;
-        EPwm2Regs.TBCTL.bit.CLKDIV = 0;
-        EPwm3Regs.TBCTL.bit.CLKDIV = 0;
-        CLKDIV = 1;
-        EPwm1Regs.TBCTL.bit.HSPCLKDIV = 0;
-        EPwm2Regs.TBCTL.bit.HSPCLKDIV = 0;
-        EPwm3Regs.TBCTL.bit.HSPCLKDIV = 0;
-        HSPCLKDIV = 1;
-    }
-    else if((1200 > switchingFrequency) && (switchingFrequency > 0)){
-        EPwm1Regs.TBCTL.bit.CLKDIV = 7;
-        EPwm2Regs.TBCTL.bit.CLKDIV = 7;
-        EPwm3Regs.TBCTL.bit.CLKDIV = 7;
-        CLKDIV = 14;
-        EPwm1Regs.TBCTL.bit.HSPCLKDIV = 7;
-        EPwm2Regs.TBCTL.bit.HSPCLKDIV = 7;
-        EPwm3Regs.TBCTL.bit.HSPCLKDIV = 7;
-        HSPCLKDIV = 128;
-    }*/
+    EPwm3Regs.AQCTLB.all = 0x0090;         //clear ePWM1B on “CMPA - up match”
+                                            //set ePWM1B to 1 on event “CMPA - down match”
+                                            // we made reverse action to obtain complementary wave
+    EPwm3Regs.DBRED = RisingEdgeDelay;                  // Rising Edge Delay = TTBCLK x DBRED
+    EPwm3Regs.DBFED = FallingEdgeDelay;                  // Falling Edge Delay = TTBCLK x DBFED
+                                           // TTBCLK = 13.3333ns to give 666ns delay we can use that number
+
+
+    EPwm1Regs.TBCTL.bit.CLKDIV = 0;
+    EPwm2Regs.TBCTL.bit.CLKDIV = 0;
+    EPwm3Regs.TBCTL.bit.CLKDIV = 0;
+    CLKDIV = 1;
+    EPwm1Regs.TBCTL.bit.HSPCLKDIV = 0;
+    EPwm2Regs.TBCTL.bit.HSPCLKDIV = 0;
+    EPwm3Regs.TBCTL.bit.HSPCLKDIV = 0;
+    HSPCLKDIV = 1;
+
 
     EPwm1Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV);        //the maximum number for TBPRD is (216 -1) or 65535
     EPwm2Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV);
@@ -249,9 +256,6 @@ interrupt void ePWMA_compare_isr(void) {
     EDIS;
     /////////////////////////
 
-    frequencyModulationRatio = fundamentalSinusoidalFrequency / switchingFrequency;
-
-    magnitudeModulationRatio = fundamentalSinusoidalMagnitude / maximumDeviceVoltage;
 
 
     EPwm1Regs.TBCTL.all = 0;
@@ -268,34 +272,34 @@ interrupt void ePWMA_compare_isr(void) {
     EPwm3Regs.AQCTLA.all = 0x0060;          //set ePWM1A to 1 on “CMPA - up match”
                                            //clear ePWM1A on event “CMPA - down match”
 
-    if ((75000000 >= switchingFrequency) && (switchingFrequency >= 1200)){
-        EPwm1Regs.TBCTL.bit.CLKDIV = 0;
-        EPwm2Regs.TBCTL.bit.CLKDIV = 0;
-        EPwm3Regs.TBCTL.bit.CLKDIV = 0;
-        CLKDIV = 1;
-        EPwm1Regs.TBCTL.bit.HSPCLKDIV = 0;
-        EPwm2Regs.TBCTL.bit.HSPCLKDIV = 0;
-        EPwm3Regs.TBCTL.bit.HSPCLKDIV = 0;
-        HSPCLKDIV = 1;
-    }
-    EPwm1Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV);        //the maximum number for TBPRD is (216 -1) or 65535
-    EPwm2Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV);
-    EPwm3Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV);
+
+    EPwm1Regs.TBCTL.bit.CLKDIV = 0;
+    EPwm2Regs.TBCTL.bit.CLKDIV = 0;
+    EPwm3Regs.TBCTL.bit.CLKDIV = 0;
+    CLKDIV = 1;
+    EPwm1Regs.TBCTL.bit.HSPCLKDIV = 0;
+    EPwm2Regs.TBCTL.bit.HSPCLKDIV = 0;
+    EPwm3Regs.TBCTL.bit.HSPCLKDIV = 0;
+    HSPCLKDIV = 1;
+
+    EPwm1Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV) ;        //the maximum number for TBPRD is (216 -1) or 65535
+    EPwm2Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV) ;
+    EPwm3Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV) ;
 
 
     //////////////////////////////////////////////////
 
-    sinus = (sin(2 * PI * frequencyModulationRatio * counter + phaseAngle) + 1) / 2.0;
+    sinus = (sin(2 * PI * (frequencyModulationRatio) * counter + phaseAngle) + 1) / 2;
 
-    EPwm1Regs.CMPA.half.CMPA = EPwm1Regs.TBPRD - magnitudeModulationRatio * EPwm1Regs.TBPRD * sinus - 1;
+    EPwm1Regs.CMPA.half.CMPA = EPwm1Regs.TBPRD - (magnitudeModulationRatio) * EPwm1Regs.TBPRD * sinus - 1;//
 
-    sinus2 = (sin(2 * PI * frequencyModulationRatio * counter + 2 * PI / 3 + phaseAngle) + 1) / 2.0;
+    sinus2 = (sin(2 * PI * (frequencyModulationRatio) * counter + 2 * PI / 3 + phaseAngle) + 1) / 2;
 
-    EPwm2Regs.CMPA.half.CMPA = EPwm2Regs.TBPRD - magnitudeModulationRatio * EPwm2Regs.TBPRD * sinus2 - 1;
+    EPwm2Regs.CMPA.half.CMPA = EPwm2Regs.TBPRD - (magnitudeModulationRatio) * EPwm2Regs.TBPRD * sinus2 - 1; //
 
-    sinus3 = (sin(2 * PI * frequencyModulationRatio * counter + 4 * PI / 3 + phaseAngle) + 1) / 2.0;
+    sinus3 = (sin(2 * PI * (frequencyModulationRatio) * counter + 4 * PI / 3 + phaseAngle) + 1) / 2;
 
-    EPwm3Regs.CMPA.half.CMPA = EPwm3Regs.TBPRD - magnitudeModulationRatio * EPwm3Regs.TBPRD * sinus3 - 1;
+    EPwm3Regs.CMPA.half.CMPA = EPwm3Regs.TBPRD - (magnitudeModulationRatio) * EPwm3Regs.TBPRD * sinus3 - 1;
 
     counter +=1;
     if( counter > ((1 / frequencyModulationRatio)-1)) counter = 0;
@@ -318,7 +322,12 @@ interrupt void adc_isr(void){
     phaseAngle = voltage_vr3 * 2 * PI / 4095;
 
     voltage_vr4 = AdcMirror.ADCRESULT3;
-    switchingFrequency = voltage_vr4 *(97000) / 4095 + 4000;
+    switchingFrequency = ((voltage_vr4 * 97000) / 4095) + 4000;
+
+    frequencyModulationRatio = fundamentalSinusoidalFrequency / switchingFrequency;
+
+    magnitudeModulationRatio = fundamentalSinusoidalMagnitude / maximumDeviceVoltage;
+
     AdcRegs.ADCTRL2.bit.RST_SEQ1 = 1;
     AdcRegs.ADCST.bit.INT_SEQ1_CLR = 1;
     PieCtrlRegs.PIEACK.all = PIEACK_GROUP1;
@@ -327,6 +336,9 @@ interrupt void adc_isr(void){
 //===========================================================================
 // End of SourceCode.
 //===========================================================================
+
+
+
 
 
 

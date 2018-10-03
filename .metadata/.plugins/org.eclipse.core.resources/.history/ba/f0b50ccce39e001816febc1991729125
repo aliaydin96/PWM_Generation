@@ -16,7 +16,7 @@
 
  double fundamentalSinusoidalFrequency = 50;  // sinusoidal output frequency in Hz
 
- float phaseAngle = 0;   // starting angle of sinus range is between 0 and 2*PI
+ float phaseAngle = 0;   // starting angle of sinus
 
  float fundamentalSinusoidalMagnitude = 2;//Peaktopeak Value of output sinus waveform
 
