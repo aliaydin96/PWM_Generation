@@ -9,11 +9,15 @@
 #include "DSP2833x_Device.h"
 
 
-int setPoint = 20;
-float error = 0;
+int setPoint = 15;
+signed error = 0;
 float controlOutput;
-float proportionalGain = 0;
+float proportionalGain = 0.1; /// proportionL GAIN coefficient
 long switchingFrequency=1000;
+
+float potValue = 0;
+
+float periodCounter = 0;
 
 long deviceClockFrequency = 150000000;
 int CLKDIV = 1;
@@ -73,7 +77,7 @@ void main(void)
     AdcRegs.ADCMAXCONV.all = 0x0001; // 2 conversions
 
     AdcRegs.ADCCHSELSEQ1.bit.CONV00 = 4; // 1st channel ADCINA0
- //   AdcRegs.ADCCHSELSEQ1.bit.CONV01 = 1;
+    AdcRegs.ADCCHSELSEQ1.bit.CONV01 = 1;
  //   AdcRegs.ADCCHSELSEQ1.bit.CONV02 = 2;
     EPwm2Regs.TBCTL.all = 0xC030;   // Configure timer control register
 
@@ -110,28 +114,24 @@ void main(void)
                SysCtrlRegs.WDKEY = 0xAA;   // service WD #2
                EDIS;
            }
-          int i = 0;
-          sum = 0;
-          for( i=0; i<100; i++ ){
-              sum += processValue;
-          }
-           processValue = sum/100;
 
-           error = setPoint - processValue;
-           PID_Controller(error);
+           //PID_Controller(error);
            CpuTimer0.InterruptCount = 0;
 
-}}
+    }
+}
 
 int PID_Controller(float Error){
+    periodCounter = proportionalGain * error;
 
+    return periodCounter;
 }
 
 void Gpio_select(void)
 {
     EALLOW;
     GpioCtrlRegs.GPAMUX1.all = 0;       // GPIO15 ... GPIO0 = General Puropse I/O
-    GpioCtrlRegs.GPAMUX1.bit.GPIO10 = 1; // ePWM6A active
+    GpioCtrlRegs.GPAMUX1.bit.GPIO0 = 1; // ePWM1A active
     GpioCtrlRegs.GPAMUX2.all = 0;       // GPIO31 ... GPIO16 = General Purpose I/O
     GpioCtrlRegs.GPBMUX1.all = 0;       // GPIO47 ... GPIO32 = General Purpose I/O
     GpioCtrlRegs.GPBMUX2.all = 0;       // GPIO63 ... GPIO48 = General Purpose I/O
@@ -139,6 +139,7 @@ void Gpio_select(void)
     GpioCtrlRegs.GPCMUX2.all = 0;       // GPIO87 ... GPIO80 = General Purpose I/O
 
     GpioCtrlRegs.GPADIR.all = 0;
+    //GpioCtrlRegs.GPADIR.bit.GPIO9 = 1;
     GpioCtrlRegs.GPBDIR.all = 0;        // GPIO63-32 as inputs
 
     GpioCtrlRegs.GPCDIR.all = 0;        // GPIO87-64 as inputs
@@ -149,25 +150,25 @@ void Setup_ePWM(void){
     SysCtrlRegs.WDKEY = 0xAA;   // service WD #2
     EDIS;
 
-    EPwm6Regs.TBCTL.all = 0;
-    EPwm6Regs.TBCTL.bit.CTRMODE = 0;         // Count up and down operation (10) = 2
-    EPwm6Regs.AQCTLA.all = 0x0060;          //set ePWM1A to 1 on “CMPA - up match”
+    EPwm1Regs.TBCTL.all = 0;
+    EPwm1Regs.TBCTL.bit.CTRMODE = 0;         // Count up and down operation (10) = 2
+    EPwm1Regs.AQCTLA.all = 0x0060;          //set ePWM1A to 1 on “CMPA - up match”
                                            //clear ePWM1A on event “CMPA - down match”
-    EPwm6Regs.AQCTLB.all = 0x0090;         //clear ePWM1B on “CMPA - up match”
+    EPwm1Regs.AQCTLB.all = 0x0090;         //clear ePWM1B on “CMPA - up match”
                                             //set ePWM1B to 1 on event “CMPA - down match”
                                             // we made reverse action to obtain complementary wave
 
-    EPwm6Regs.TBCTL.bit.CLKDIV = 0;
+    EPwm1Regs.TBCTL.bit.CLKDIV = 0;
     CLKDIV = 1;
-    EPwm6Regs.TBCTL.bit.HSPCLKDIV = 0;
+    EPwm1Regs.TBCTL.bit.HSPCLKDIV = 0;
     HSPCLKDIV = 1;
 
-    EPwm6Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV);        //the maximum number for TBPRD is (216 -1) or 65535
-    EPwm6Regs.CMPA.half.CMPA = EPwm6Regs.TBPRD / 2; // 50% duty cycle first
-    EPwm6Regs.ETSEL.all = 0;
-    EPwm6Regs.ETSEL.bit.INTEN = 1;      // interrupt enable for ePWM1
-    EPwm6Regs.ETSEL.bit.INTSEL = 4;     // interrupt on CMPA up match
-    EPwm6Regs.ETPS.bit.INTPRD = 1;      // interrupt on first event
+    EPwm1Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV);        //the maximum number for TBPRD is (216 -1) or 65535
+    EPwm1Regs.CMPA.half.CMPA = EPwm1Regs.TBPRD / 2; // 50% duty cycle first
+    EPwm1Regs.ETSEL.all = 0;
+    EPwm1Regs.ETSEL.bit.INTEN = 1;      // interrupt enable for ePWM1
+    EPwm1Regs.ETSEL.bit.INTSEL = 4;     // interrupt on CMPA up match
+    EPwm1Regs.ETPS.bit.INTPRD = 1;      // interrupt on first event
 
 }
 interrupt void ePWMA_compare_isr(void) {
@@ -176,21 +177,23 @@ interrupt void ePWMA_compare_isr(void) {
     EDIS;
     /////////////////////////
 
-    EPwm6Regs.TBCTL.all = 0;
-    EPwm6Regs.TBCTL.bit.CTRMODE = 2;         // Count up and down operation (10) = 2
-    EPwm6Regs.AQCTLA.all = 0x0060;          //set ePWM1A to 1 on “CMPA - up match”
+    EPwm1Regs.TBCTL.all = 0;
+    EPwm1Regs.TBCTL.bit.CTRMODE = 2;         // Count up and down operation (10) = 2
+    EPwm1Regs.AQCTLA.all = 0x0060;          //set ePWM1A to 1 on “CMPA - up match”
                                            //clear ePWM1A on event “CMPA - down match”
 
-    EPwm6Regs.TBCTL.bit.CLKDIV = 0;
+    EPwm1Regs.TBCTL.bit.CLKDIV = 0;
     CLKDIV = 1;
-    EPwm6Regs.TBCTL.bit.HSPCLKDIV = 0;
+    EPwm1Regs.TBCTL.bit.HSPCLKDIV = 0;
     HSPCLKDIV = 1;
 
-    EPwm6Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV) ;        //the maximum number for TBPRD is (216 -1) or 65535
+   // periodCounter = proportionalGain * error;
 
-    EPwm6Regs.CMPA.half.CMPA = EPwm6Regs.TBPRD ;//
+    EPwm1Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV) ;        //the maximum number for TBPRD is (216 -1) or 65535
 
-    EPwm6Regs.ETCLR.bit.INT = 1;
+    EPwm1Regs.CMPA.half.CMPA = EPwm1Regs.TBPRD  - EPwm1Regs.TBPRD * periodCounter - 1;//
+
+    EPwm1Regs.ETCLR.bit.INT = 1;
     PieCtrlRegs.PIEACK.all = 4;
 
 }
@@ -207,6 +210,19 @@ interrupt void adc_isr(void){
     lm35 = lm35*300/4095;
     processValue = lm35-8;
 
+    potValue =AdcMirror.ADCRESULT1;
+    setPoint = (potValue * 40) / 4095 + 5;
+/*
+    int i = 0;
+    sum = 0;
+    for( i=0; i<100; i++ ){
+        sum += processValue;
+    }
+    processValue = sum/100;
+*/
+    error = -(setPoint - processValue); ///process value hep yuksek olacagi icin (-) ile carptim
+    if(error < 0) error = 0;
+    PID_Controller(error);
     AdcRegs.ADCTRL2.bit.RST_SEQ1 = 1;
     AdcRegs.ADCST.bit.INT_SEQ1_CLR = 1;
     PieCtrlRegs.PIEACK.all = PIEACK_GROUP1;
