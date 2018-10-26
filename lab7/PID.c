@@ -9,14 +9,20 @@
 #include "DSP2833x_Device.h"
 
 
+
+float proportionalGain = 0.13; /// proportionL GAIN coefficient
+
+float integrationalGain = 0.095;  /// integrational gain coefficient
+
+long switchingFrequency=1000;
+
+
 int setPoint = 15;
 signed error = 0;
 float controlOutput;
-float proportionalGain = 0.1; /// proportionL GAIN coefficient
-long switchingFrequency=1000;
-
 float potValue = 0;
-
+signed integrationSum = 0;
+int integrationCounter = 0;
 float periodCounter = 0;
 
 long deviceClockFrequency = 150000000;
@@ -122,7 +128,13 @@ void main(void)
 }
 
 int PID_Controller(float Error){
-    periodCounter = proportionalGain * error;
+
+    integrationCounter++;
+
+    integrationSum = (integrationSum + Error) / integrationCounter;
+    if (integrationCounter == 50000) integrationCounter = 0;
+
+    periodCounter = proportionalGain * Error + integrationSum * integrationalGain;
 
     return periodCounter;
 }
