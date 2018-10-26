@@ -16,7 +16,7 @@ float integrationalGain = 0.01;  /// integrational gain coefficient
 
 float derivativeGain = 0.01;
 
-int derivativeTime = 15000;
+int derivativeTime = 10000;
 
 long switchingFrequency=1000;
 

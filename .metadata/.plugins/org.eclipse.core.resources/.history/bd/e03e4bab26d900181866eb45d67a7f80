@@ -10,13 +10,13 @@
 
 
 
-float proportionalGain = 0.08; /// proportionL GAIN coefficient
+float proportionalGain = 0.1; /// proportionL GAIN coefficient
 
-float integrationalGain = 0.01;  /// integrational gain coefficient
+float integrationalGain = 0.06;  /// integrational gain coefficient
 
-float derivativeGain = 0.01;
+float derivativeGain = 0.06;
 
-int derivativeTime = 15000;
+int derivativeTime = 10000;
 
 long switchingFrequency=1000;
 
@@ -184,7 +184,7 @@ void Setup_ePWM(void){
     EPwm1Regs.TBCTL.bit.HSPCLKDIV = 0;
     HSPCLKDIV = 1;
 
-    EPwm1Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV) - 1;        //the maximum number for TBPRD is (216 -1) or 65535
+    EPwm1Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV);        //the maximum number for TBPRD is (216 -1) or 65535
     EPwm1Regs.CMPA.half.CMPA = EPwm1Regs.TBPRD / 2; // 50% duty cycle first
     EPwm1Regs.ETSEL.all = 0;
     EPwm1Regs.ETSEL.bit.INTEN = 1;      // interrupt enable for ePWM1
@@ -210,9 +210,9 @@ interrupt void ePWMA_compare_isr(void) {
 
    // periodCounter = proportionalGain * error;
 
-    EPwm1Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV) - 1;        //the maximum number for TBPRD is (216 -1) or 65535
+    EPwm1Regs.TBPRD = (0.5 * deviceClockFrequency) / (switchingFrequency * CLKDIV * HSPCLKDIV) ;        //the maximum number for TBPRD is (216 -1) or 65535
 
-    EPwm1Regs.CMPA.half.CMPA = EPwm1Regs.TBPRD  - EPwm1Regs.TBPRD * periodCounter;//
+    EPwm1Regs.CMPA.half.CMPA = EPwm1Regs.TBPRD  - EPwm1Regs.TBPRD * periodCounter - 1;//
 
     EPwm1Regs.ETCLR.bit.INT = 1;
     PieCtrlRegs.PIEACK.all = 4;
