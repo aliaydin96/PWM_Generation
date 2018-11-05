@@ -1,0 +1,40 @@
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../Display_ADC.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Display_ADC.d_raw"  "../Display_ADC.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'Display_ADC.obj' failed
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm', needed by 'DSP2833x_ADC_cal.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c', needed by 'DSP2833x_Adc.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm', needed by 'DSP2833x_CodeStartBranch.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c', needed by 'DSP2833x_CpuTimers.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c', needed by 'DSP2833x_DefaultIsr.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c', needed by 'DSP2833x_GlobalVariableDefs.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c', needed by 'DSP2833x_PieCtrl.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c', needed by 'DSP2833x_PieVect.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c', needed by 'DSP2833x_SysCtrl.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm', needed by 'DSP2833x_usDelay.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd', needed by 'all'.
+gmake: *** No rule to make target 'C:/tidcs/c28/IQmath/v15a/lib/IQmath_fpu32.lib', needed by 'all'.
+"../Display_ADC.c", line 1: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../Display_ADC.c".
+Compilation terminated.
+gmake: *** [Display_ADC.obj] Error 1
+'Building file: "../sinusWithPotsAndDeadBand.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sinusWithPotsAndDeadBand.d_raw"  "../sinusWithPotsAndDeadBand.c"
+
+>> Compilation failure
+subdir_rules.mk:86: recipe for target 'sinusWithPotsAndDeadBand.obj' failed
+"../sinusWithPotsAndDeadBand.c", line 9: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../sinusWithPotsAndDeadBand.c".
+Compilation terminated.
+gmake: *** [sinusWithPotsAndDeadBand.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

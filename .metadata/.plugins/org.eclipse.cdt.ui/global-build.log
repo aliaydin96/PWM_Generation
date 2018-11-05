@@ -1,0 +1,191 @@
+
+**** Clean-only build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+ 
+gmake: *** No rule to make target 'clean'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm', needed by 'DSP2833x_ADC_cal.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm', needed by 'DSP2833x_CodeStartBranch.obj'.
+Fatal error #1965: cannot open source file "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"
+1 catastrophic error detected in the compilation of "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+Fatal error #1965: cannot open source file "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"
+1 catastrophic error detected in the compilation of "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+Fatal error #1965: cannot open source file "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"
+1 catastrophic error detected in the compilation of "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm', needed by 'DSP2833x_usDelay.obj'.
+Fatal error #1965: cannot open source file "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"
+1 catastrophic error detected in the compilation of "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+Fatal error #1965: cannot open source file "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"
+1 catastrophic error detected in the compilation of "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd', needed by 'all'.
+gmake: *** No rule to make target 'C:/tidcs/c28/IQmath/v15a/lib/IQmath_fpu32.lib', needed by 'all'.
+Fatal error #1965: cannot open source file "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"
+1 catastrophic error detected in the compilation of "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+Fatal error #1965: cannot open source file "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"
+1 catastrophic error detected in the compilation of "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+'Building file: "../Display_ADC.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Display_ADC.d_raw"  "../Display_ADC.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'Display_ADC.obj' failed
+"../Display_ADC.c", line 1: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../Display_ADC.c".
+Compilation terminated.
+gmake: *** [Display_ADC.obj] Error 1
+'Building file: "../sinusWithPotsAndDeadBand.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sinusWithPotsAndDeadBand.d_raw"  "../sinusWithPotsAndDeadBand.c"
+
+>> Compilation failure
+subdir_rules.mk:86: recipe for target 'sinusWithPotsAndDeadBand.obj' failed
+"../sinusWithPotsAndDeadBand.c", line 9: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../sinusWithPotsAndDeadBand.c".
+Compilation terminated.
+gmake: *** [sinusWithPotsAndDeadBand.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../Display_ADC.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Display_ADC.d_raw"  "../Display_ADC.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'Display_ADC.obj' failed
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm', needed by 'DSP2833x_ADC_cal.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c', needed by 'DSP2833x_Adc.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm', needed by 'DSP2833x_CodeStartBranch.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c', needed by 'DSP2833x_CpuTimers.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c', needed by 'DSP2833x_DefaultIsr.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c', needed by 'DSP2833x_GlobalVariableDefs.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c', needed by 'DSP2833x_PieCtrl.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c', needed by 'DSP2833x_PieVect.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c', needed by 'DSP2833x_SysCtrl.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm', needed by 'DSP2833x_usDelay.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd', needed by 'all'.
+gmake: *** No rule to make target 'C:/tidcs/c28/IQmath/v15a/lib/IQmath_fpu32.lib', needed by 'all'.
+"../Display_ADC.c", line 1: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../Display_ADC.c".
+Compilation terminated.
+gmake: *** [Display_ADC.obj] Error 1
+'Building file: "../sinusWithPotsAndDeadBand.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sinusWithPotsAndDeadBand.d_raw"  "../sinusWithPotsAndDeadBand.c"
+
+>> Compilation failure
+subdir_rules.mk:86: recipe for target 'sinusWithPotsAndDeadBand.obj' failed
+"../sinusWithPotsAndDeadBand.c", line 9: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../sinusWithPotsAndDeadBand.c".
+Compilation terminated.
+gmake: *** [sinusWithPotsAndDeadBand.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../Display_ADC.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Display_ADC.d_raw"  "../Display_ADC.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'Display_ADC.obj' failed
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm', needed by 'DSP2833x_ADC_cal.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c', needed by 'DSP2833x_Adc.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm', needed by 'DSP2833x_CodeStartBranch.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c', needed by 'DSP2833x_CpuTimers.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c', needed by 'DSP2833x_DefaultIsr.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c', needed by 'DSP2833x_GlobalVariableDefs.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c', needed by 'DSP2833x_PieCtrl.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c', needed by 'DSP2833x_PieVect.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c', needed by 'DSP2833x_SysCtrl.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm', needed by 'DSP2833x_usDelay.obj'.
+gmake: *** No rule to make target 'C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd', needed by 'all'.
+gmake: *** No rule to make target 'C:/tidcs/c28/IQmath/v15a/lib/IQmath_fpu32.lib', needed by 'all'.
+"../Display_ADC.c", line 1: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../Display_ADC.c".
+Compilation terminated.
+gmake: *** [Display_ADC.obj] Error 1
+'Building file: "../sinusWithPotsAndDeadBand.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sinusWithPotsAndDeadBand.d_raw"  "../sinusWithPotsAndDeadBand.c"
+
+>> Compilation failure
+subdir_rules.mk:86: recipe for target 'sinusWithPotsAndDeadBand.obj' failed
+"../sinusWithPotsAndDeadBand.c", line 9: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../sinusWithPotsAndDeadBand.c".
+Compilation terminated.
+gmake: *** [sinusWithPotsAndDeadBand.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

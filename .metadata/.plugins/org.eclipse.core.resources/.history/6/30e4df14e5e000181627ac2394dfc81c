@@ -102,9 +102,9 @@ void main(void)
         AdcRegs.ADCCHSELSEQ1.bit.CONV01 = 1; // 2nd channel ADCINA1
         AdcRegs.ADCCHSELSEQ1.bit.CONV02 = 2;
         AdcRegs.ADCCHSELSEQ1.bit.CONV03 = 3;
-        AdcRegs.ADCCHSELSEQ1.bit.CONV04 = 4;    //current A phase measurement
-        AdcRegs.ADCCHSELSEQ1.bit.CONV05 = 5;    //current B phase measurement
-        AdcRegs.ADCCHSELSEQ1.bit.CONV06 = 6;      //current C phase measurement
+        AdcRegs.ADCCHSELSEQ1.bit.CONV04 = 4;
+        AdcRegs.ADCCHSELSEQ1.bit.CONV05 = 4;
+        AdcRegs.ADCCHSELSEQ1.bit.CONV06 = 4;
         EPwm5Regs.TBCTL.all = 0xC030;   // Configure timer control register
         /*
          bit 15-14     11:     FREE/SOFT, 11 = ignore emulation suspend
@@ -330,18 +330,6 @@ interrupt void adc_isr(void){
     frequencyModulationRatio = fundamentalSinusoidalFrequency / switchingFrequency;
 
     magnitudeModulationRatio = fundamentalSinusoidalMagnitude / maximumDeviceVoltage;
-
-    int AphaseVoltage = (AdcMirror.ADCRESULT4) * 3.3 / 4095;
-
-    int BphaseVoltage = (AdcMirror.ADCRESULT5) * 3.3 / 4095;
-
-    int CphaseVoltage = (AdcMirror.ADCRESULT6) * 3.3 / 4095;
-
-    int AphaseCurrent = (AphaseVoltage - 1.5) / 8.2 / 2 / (4 * 10^6);
-
-    int BphaseCurrent = (BphaseVoltage - 1.5) / 8.2 / 2 / (4 * 10^6);
-
-    int CphaseCurrent = (CphaseVoltage - 1.5) / 8.2 / 2 / (4 * 10^6);
 
     AdcRegs.ADCTRL2.bit.RST_SEQ1 = 1;
     AdcRegs.ADCST.bit.INT_SEQ1_CLR = 1;
