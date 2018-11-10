@@ -102,9 +102,9 @@ void main(void)
         AdcRegs.ADCCHSELSEQ1.bit.CONV01 = 1; // 2nd channel ADCINA1
         AdcRegs.ADCCHSELSEQ1.bit.CONV02 = 2;
         AdcRegs.ADCCHSELSEQ1.bit.CONV03 = 3;
-        AdcRegs.ADCCHSELSEQ1.bit.CONV04 = 4;    //current A phase measurement
-        AdcRegs.ADCCHSELSEQ1.bit.CONV05 = 5;    //current B phase measurement
-        AdcRegs.ADCCHSELSEQ1.bit.CONV06 = 6;      //current C phase measurement
+        AdcRegs.ADCCHSELSEQ2.bit.CONV04 = 4;    //current A phase measurement
+        AdcRegs.ADCCHSELSEQ2.bit.CONV05 = 5;    //current B phase measurement
+        AdcRegs.ADCCHSELSEQ2.bit.CONV06 = 6;      //current C phase measurement
         EPwm5Regs.TBCTL.all = 0xC030;   // Configure timer control register
         /*
          bit 15-14     11:     FREE/SOFT, 11 = ignore emulation suspend

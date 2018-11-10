@@ -193,3 +193,16 @@ Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sat Nov 03 
 	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144)
 	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)
 	... 30 more
+!SESSION 2018-11-09 21:13:05.154 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2018-11-09 21:13:16.530
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2018-11-09 21:13:16.546
+!MESSAGE debugServerDir=C:/ti/ccsv7/ccs_base/DebugServer
