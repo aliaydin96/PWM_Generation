@@ -74,7 +74,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="PID.c|completed/sinusdeadband.c|completed/sinus2.c|completed/sinus.c|completed/lab7_9.c|completed/lab7_8.c|completed/lab7_7.c|completed/lab7_6.c|completed/lab7_5.c|completed/lab7_4.c|completed/lab7_3.c|completed/lab7_2.c|completed/lab7_1.c|sinuswithpots.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="sinusWithPotsAndDeadBand.c|PID.c|completed/sinusdeadband.c|completed/sinus2.c|completed/sinus.c|completed/lab7_9.c|completed/lab7_8.c|completed/lab7_7.c|completed/lab7_6.c|completed/lab7_5.c|completed/lab7_4.c|completed/lab7_3.c|completed/lab7_2.c|completed/lab7_1.c|sinuswithpots.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

@@ -10,11 +10,11 @@
 
 
 
-float proportionalGain = 0.08; /// proportionL GAIN coefficient
+float proportionalGain = 0.09; /// proportionL GAIN coefficient
 
-float integrationalGain = 0.01;  /// integrational gain coefficient
+float integrationalGain = 0.02;  /// integrational gain coefficient
 
-float derivativeGain = 0.01;
+float derivativeGain = 0.04;
 
 int derivativeTime = 15000;
 
@@ -143,7 +143,7 @@ int PID_Controller(float Error){
     changeOfError = Error - previousValue;
     previousValue = Error;
 
-    periodCounter = proportionalGain * Error + integrationSum * integrationalGain + derivativeGain * derivativeTime * changeOfError;
+    periodCounter = proportionalGain * Error + /*integrationSum * integrationalGain +*/ derivativeGain * derivativeTime * changeOfError;
 
     return periodCounter;
 }
