@@ -1,3 +1,4 @@
+CONTINUE_REFRESH_INTERVAL=100
 RELOAD_PROGRAM_IF_CHANGED=always
 eclipse.preferences.version=1
 useAnnotationsPrefPage=true

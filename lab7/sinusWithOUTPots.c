@@ -25,6 +25,9 @@
 
  long FallingEdgeDelay = 15;        // Falling Edge Delay = TTBCLK x DBFED(=FallingEdgeDelay)
                                     // TTBCLK = 13.3333ns to give 666ns delay we can use that number
+ int arrayA[800];           //this array is created for graph visulization
+                         // number inside the array = switchingFrequency / fundamentalSinusoidalFrequency
+ int N = 800;           // N is the same with array number
 
  ///////////////////////////////////////////////////////////////////////////////////////////   //
                                                                                                //
@@ -33,9 +36,14 @@
 
  float maximumDeviceVoltage = 1;  // This is scaled to 1
 
+
  int cmp_phaseA;
  int cmp_phaseB;
  int cmp_phaseC;
+
+
+
+ int i = 0;
 
  double counter = 0;
 
@@ -120,7 +128,6 @@ void main(void)
         IER |= 5;
         EINT;
         ERTM;
-
 
         while(1)
         {
@@ -345,7 +352,14 @@ interrupt void adc_isr(void){
     EPwm2Regs.CMPA.half.CMPA = cmp_phaseB;
     EPwm3Regs.CMPA.half.CMPA = cmp_phaseC;
 
-
+    if (i < N ) {
+        arrayA[i] = cmp_phaseA;
+        i = i + 1;
+    }
+    else {
+        i = 0;
+        //arrayA[] = 0;
+    }
     AdcRegs.ADCTRL2.bit.RST_SEQ1 = 1;
     AdcRegs.ADCST.bit.INT_SEQ1_CLR = 1;
     PieCtrlRegs.PIEACK.all = PIEACK_GROUP1;
