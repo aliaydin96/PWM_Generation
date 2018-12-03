@@ -330,7 +330,12 @@ interrupt void ePWMA_compare_isr(void) {
 interrupt void adc_isr(void){
 
 //    GpioDataRegs.GPASET.bit.GPIO9 = 1;
-    /*
+
+
+    EALLOW;
+    SysCtrlRegs.WDKEY = 0x55;   // service WD #2
+    EDIS;
+/*
     int AphaseVoltage = (AdcMirror.ADCRESULT0) * 3.3 / 4095;
 
     int BphaseVoltage = (AdcMirror.ADCRESULT1) * 3.3 / 4095;
@@ -343,17 +348,12 @@ interrupt void adc_isr(void){
 
     int CphaseCurrent = (CphaseVoltage - 1.5) / 8.2 / 2 / (4 * 10^6);
 */
-
-    EALLOW;
-    SysCtrlRegs.WDKEY = 0x55;   // service WD #2
-    EDIS;
-
     EPwm1Regs.CMPA.half.CMPA = cmp_phaseA;
     EPwm2Regs.CMPA.half.CMPA = cmp_phaseB;
     EPwm3Regs.CMPA.half.CMPA = cmp_phaseC;
 
     if (i < N ) {
-        arrayA[i] = cmp_phaseA;
+        arrayA[i] = cmp_phaseA;//(AphaseVoltage - 1.5) / 8.2 / 2 / (4 * 10^6);
         i = i + 1;
     }
     else {
