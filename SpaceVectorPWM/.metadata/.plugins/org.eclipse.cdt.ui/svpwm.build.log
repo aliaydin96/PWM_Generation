@@ -1,0 +1,19 @@
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/Ali/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****

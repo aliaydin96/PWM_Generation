@@ -1,0 +1,2015 @@
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "../DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "../DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+"../DSP2833x_Adc.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "../DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "../DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+"../DSP2833x_CpuTimers.c", line 20: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "../DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "../DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+"../DSP2833x_DefaultIsr.c", line 24: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "../DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "../DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+"../DSP2833x_GlobalVariableDefs.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "../DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "../DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+"../DSP2833x_PieCtrl.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "../DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "../DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+"../DSP2833x_PieVect.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "../DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "../DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+"../DSP2833x_SysCtrl.c", line 19: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 9: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+'Building file: "../DSP2833x_ADC_cal.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "../DSP2833x_ADC_cal.asm"
+'Finished building: "../DSP2833x_ADC_cal.asm"'
+ 
+'Building file: "../DSP2833x_CodeStartBranch.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CodeStartBranch.d_raw"  "../DSP2833x_CodeStartBranch.asm"
+'Finished building: "../DSP2833x_CodeStartBranch.asm"'
+ 
+'Building file: "../DSP2833x_usDelay.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "../DSP2833x_usDelay.asm"
+'Finished building: "../DSP2833x_usDelay.asm"'
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_ADC_cal.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_ADC_cal.asm"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_ADC_cal.asm"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c", line 20: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CodeStartBranch.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CodeStartBranch.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CodeStartBranch.asm"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CodeStartBranch.asm"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c", line 24: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c", line 19: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 9: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_usDelay.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_usDelay.asm"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_usDelay.asm"'
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+gmake: *** No rule to make target 'C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_ADC_cal.asm', needed by 'DSP2833x_ADC_cal.obj'.
+gmake: *** No rule to make target 'C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CodeStartBranch.asm', needed by 'DSP2833x_CodeStartBranch.obj'.
+Fatal error #1965: cannot open source file "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+Fatal error #1965: cannot open source file "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+Fatal error #1965: cannot open source file "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+gmake: *** No rule to make target 'C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_usDelay.asm', needed by 'DSP2833x_usDelay.obj'.
+Fatal error #1965: cannot open source file "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+gmake: *** No rule to make target 'C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd', needed by 'all'.
+Fatal error #1965: cannot open source file "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+Fatal error #1965: cannot open source file "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+Fatal error #1965: cannot open source file "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_ADC_cal.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_ADC_cal.asm"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_ADC_cal.asm"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CodeStartBranch.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CodeStartBranch.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CodeStartBranch.asm"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CodeStartBranch.asm"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_usDelay.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_usDelay.asm"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_usDelay.asm"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c", line 20: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c", line 24: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_ADC_cal.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_ADC_cal.asm"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_ADC_cal.asm"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CodeStartBranch.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CodeStartBranch.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CodeStartBranch.asm"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CodeStartBranch.asm"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c", line 19: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 9: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_usDelay.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_usDelay.asm"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_usDelay.asm"'
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c", line 20: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c", line 24: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c", line 19: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 9: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'svpwm.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'svpwm.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+gmake: *** No rule to make target 'C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_ADC_cal.asm', needed by 'DSP2833x_ADC_cal.obj'.
+gmake: *** No rule to make target 'C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CodeStartBranch.asm', needed by 'DSP2833x_CodeStartBranch.obj'.
+Fatal error #1965: cannot open source file "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+Fatal error #1965: cannot open source file "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+Fatal error #1965: cannot open source file "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+gmake: *** No rule to make target 'C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_usDelay.asm', needed by 'DSP2833x_usDelay.obj'.
+Fatal error #1965: cannot open source file "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+Fatal error #1965: cannot open source file "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+Fatal error #1965: cannot open source file "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+Fatal error #1965: cannot open source file "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+'Building file: "../link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="link_files/DSP2833x_Adc.d_raw" --obj_directory="link_files"  "../link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+link_files/subdir_rules.mk:16: recipe for target 'link_files/DSP2833x_Adc.obj' failed
+"../link_files/DSP2833x_Adc.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [link_files/DSP2833x_Adc.obj] Error 1
+'Building file: "../link_files/DSP2833x_ADC_cal.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="link_files/DSP2833x_ADC_cal.d_raw" --obj_directory="link_files"  "../link_files/DSP2833x_ADC_cal.asm"
+'Finished building: "../link_files/DSP2833x_ADC_cal.asm"'
+ 
+'Building file: "../link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="link_files/DSP2833x_CpuTimers.d_raw" --obj_directory="link_files"  "../link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+link_files/subdir_rules.mk:30: recipe for target 'link_files/DSP2833x_CpuTimers.obj' failed
+"../link_files/DSP2833x_CpuTimers.c", line 20: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [link_files/DSP2833x_CpuTimers.obj] Error 1
+'Building file: "../link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="link_files/DSP2833x_DefaultIsr.d_raw" --obj_directory="link_files"  "../link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+link_files/subdir_rules.mk:37: recipe for target 'link_files/DSP2833x_DefaultIsr.obj' failed
+"../link_files/DSP2833x_DefaultIsr.c", line 24: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [link_files/DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "../link_files/DSP2833x_CodeStartBranch.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="link_files/DSP2833x_CodeStartBranch.d_raw" --obj_directory="link_files"  "../link_files/DSP2833x_CodeStartBranch.asm"
+'Finished building: "../link_files/DSP2833x_CodeStartBranch.asm"'
+ 
+'Building file: "../link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="link_files/DSP2833x_GlobalVariableDefs.d_raw" --obj_directory="link_files"  "../link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+link_files/subdir_rules.mk:44: recipe for target 'link_files/DSP2833x_GlobalVariableDefs.obj' failed
+"../link_files/DSP2833x_GlobalVariableDefs.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [link_files/DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "../link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="link_files/DSP2833x_PieCtrl.d_raw" --obj_directory="link_files"  "../link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+link_files/subdir_rules.mk:51: recipe for target 'link_files/DSP2833x_PieCtrl.obj' failed
+gmake: *** No rule to make target 'C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd', needed by 'all'.
+"../link_files/DSP2833x_PieCtrl.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [link_files/DSP2833x_PieCtrl.obj] Error 1
+'Building file: "../link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="link_files/DSP2833x_PieVect.d_raw" --obj_directory="link_files"  "../link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+link_files/subdir_rules.mk:58: recipe for target 'link_files/DSP2833x_PieVect.obj' failed
+"../link_files/DSP2833x_PieVect.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [link_files/DSP2833x_PieVect.obj] Error 1
+'Building file: "../link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="link_files/DSP2833x_SysCtrl.d_raw" --obj_directory="link_files"  "../link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+link_files/subdir_rules.mk:65: recipe for target 'link_files/DSP2833x_SysCtrl.obj' failed
+"../link_files/DSP2833x_SysCtrl.c", line 19: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [link_files/DSP2833x_SysCtrl.obj] Error 1
+'Building file: "../link_files/DSP2833x_usDelay.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="link_files/DSP2833x_usDelay.d_raw" --obj_directory="link_files"  "../link_files/DSP2833x_usDelay.asm"
+'Finished building: "../link_files/DSP2833x_usDelay.asm"'
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c", line 20: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_ADC_cal.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_ADC_cal.asm"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_ADC_cal.asm"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CodeStartBranch.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CodeStartBranch.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CodeStartBranch.asm"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CodeStartBranch.asm"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c", line 24: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c", line 19: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_usDelay.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_usDelay.asm"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_usDelay.asm"'
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c", line 20: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c", line 24: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c", line 19: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c", line 20: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c", line 24: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c", line 19: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c", line 20: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c", line 24: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c", line 19: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c", line 20: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c", line 24: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c", line 19: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c", line 20: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c", line 24: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c", line 19: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c", line 20: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c", line 24: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c", line 19: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c", line 20: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c", line 24: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+"C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c", line 19: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Adc.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_CpuTimers.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieCtrl.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_PieVect.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_DefaultIsr.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_SysCtrl.c"'
+ 
+'Building file: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"
+'Finished building: "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_GlobalVariableDefs.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 96: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 308: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 96)
+"../main.c", line 309: error #29: expected an expression
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 96: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 308: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 96)
+"../main.c", line 309: error #29: expected an expression
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 96: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 308: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 96)
+"../main.c", line 309: error #29: expected an expression
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 96: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 308: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 96)
+'Finished building: "../main.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/ROG/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 96: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 308: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 96)
+'Finished building: "../main.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/ROG/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 59: error #150: variable "magnitudeModulationRatio" has already been initialized
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+"../main.c", line 344: error #29: expected an expression
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 101: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 313: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 101)
+'Finished building: "../main.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/Ali/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+"../main.c", line 343: error #31: expression must have integral type
+"../main.c", line 344: error #31: expression must have integral type
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+"../main.c", line 343: error #31: expression must have integral type
+"../main.c", line 344: error #31: expression must have integral type
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+"../main.c", line 340: error #31: expression must have integral type
+"../main.c", line 344: error #31: expression must have integral type
+"../main.c", line 345: error #31: expression must have integral type
+"../main.c", line 349: warning #128-D: expected a statement
+3 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+"../main.c", line 340: error #31: expression must have integral type
+"../main.c", line 349: warning #128-D: expected a statement
+"../main.c", line 343: warning #179-D: variable "constant" was declared but never referenced
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+"../main.c", line 340: error #31: expression must have integral type
+"../main.c", line 349: warning #128-D: expected a statement
+"../main.c", line 343: warning #179-D: variable "constant" was declared but never referenced
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+"../main.c", line 340: error #31: expression must have integral type
+"../main.c", line 349: warning #128-D: expected a statement
+"../main.c", line 343: warning #179-D: variable "constant" was declared but never referenced
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+"../main.c", line 340: error #31: expression must have integral type
+"../main.c", line 349: warning #128-D: expected a statement
+"../main.c", line 342: warning #552-D: variable "constant" was set but never used
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+"../main.c", line 347: error #20: identifier "sector" is undefined
+"../main.c", line 349: warning #128-D: expected a statement
+"../main.c", line 342: warning #552-D: variable "constant" was set but never used
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+"../main.c", line 342: error #66: expected a ";"
+"../main.c", line 343: error #20: identifier "constant" is undefined
+"../main.c", line 349: warning #128-D: expected a statement
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+"../main.c", line 349: warning #128-D: expected a statement
+"../main.c", line 342: warning #552-D: variable "constant" was set but never used
+'Finished building: "../main.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/Ali/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+"../main.c", line 348: warning #128-D: expected a statement
+'Finished building: "../main.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/Ali/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'main.obj' failed
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+"../main.c", line 349: error #20: identifier "Tl" is undefined
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+'Finished building: "../main.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/Ali/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 102: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 314: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 102)
+'Finished building: "../main.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/Ali/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 97: warning #225-D: function "SineTableGenerator" declared implicitly
+"../main.c", line 305: warning #161-D: declaration is incompatible with previous "SineTableGenerator" (declared at line 97)
+'Finished building: "../main.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/Ali/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/Ali/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project svpwm ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/svpwm/svpwm" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+'Finished building: "../main.c"'
+ 
+'Building target: "svpwm.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"svpwm.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="svpwm_linkInfo.xml" --rom_model -o "svpwm.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./main.obj" "../28335_RAM_lnk.cmd" "C:/Users/Ali/Desktop/svpwm/link_files/DSP2833x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "svpwm.out"'
+ 
+
+**** Build Finished ****

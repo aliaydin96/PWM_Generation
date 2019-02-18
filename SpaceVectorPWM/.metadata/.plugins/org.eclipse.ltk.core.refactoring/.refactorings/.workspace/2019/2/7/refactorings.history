@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 11 resources" deleteContents="false" description="Delete 11 resources" element1="/svpwm/DSP2833x_ADC_cal.asm" element10="/svpwm/DSP2833x_SysCtrl.c" element11="/svpwm/DSP2833x_usDelay.asm" element2="/svpwm/DSP2833x_Adc.c" element3="/svpwm/DSP2833x_CodeStartBranch.asm" element4="/svpwm/DSP2833x_CpuTimers.c" element5="/svpwm/DSP2833x_DefaultIsr.c" element6="/svpwm/DSP2833x_GlobalVariableDefs.c" element7="/svpwm/DSP2833x_Headers_nonBIOS.cmd" element8="/svpwm/DSP2833x_PieCtrl.c" element9="/svpwm/DSP2833x_PieVect.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="11" stamp="1550083380700"/>
+</session>
