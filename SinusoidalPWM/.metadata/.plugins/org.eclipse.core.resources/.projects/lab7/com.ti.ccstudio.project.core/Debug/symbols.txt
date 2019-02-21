@@ -1,6 +1,6 @@
 #define __signed_chars__ 1	/* Predefined */
-#define __DATE__ "Feb 21 2019"	/* Predefined */
-#define __TIME__ "23:54:55"	/* Predefined */
+#define __DATE__ "Feb 22 2019"	/* Predefined */
+#define __TIME__ "00:05:22"	/* Predefined */
 #define __STDC__ 1	/* Predefined */
 #define __STDC_VERSION__ 199409L	/* Predefined */
 #define __TI_C99_COMPLEX_ENABLED__ 1	/* Predefined */
@@ -12,8 +12,8 @@
 #define __GNUC_MINOR__ 3	/* Predefined */
 #define __GNUC_PATCHLEVEL__ 0	/* Predefined */
 #define __VERSION__ "EDG gcc 4.3 mode"	/* Predefined */
-#define __TI_COMPILER_VERSION__ 16009010	/* Predefined */
-#define __COMPILER_VERSION__ 16009010	/* Predefined */
+#define __TI_COMPILER_VERSION__ 16009007	/* Predefined */
+#define __COMPILER_VERSION__ 16009007	/* Predefined */
 #define __TMS320C2000__ 1	/* Predefined */
 #define _TMS320C2000 1	/* Predefined */
 #define __TMS320C28XX__ 1	/* Predefined */

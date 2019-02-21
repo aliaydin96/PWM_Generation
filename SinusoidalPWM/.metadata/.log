@@ -1574,3 +1574,19 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.
 
 !ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-21 22:54:26.470
 !MESSAGE No repository found at file:/C:/Users/Ali/AppData/Local/Temp/traceplugin-Repo/.
+!SESSION 2019-02-21 23:02:30.427 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2019-02-21 23:03:01.321
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2019-02-21 23:03:01.333
+!MESSAGE debugServerDir=C:/ti/ccsv7/ccs_base/DebugServer
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-21 23:04:16.921
+!MESSAGE No repository found at file:/C:/Users/ROG/AppData/Local/Temp/traceplugin-Repo/.

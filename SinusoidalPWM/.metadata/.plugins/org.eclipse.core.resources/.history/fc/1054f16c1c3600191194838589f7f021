@@ -1,0 +1,98 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../28335_RAM_lnk.cmd \
+D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_Headers_nonBIOS.cmd 
+
+ASM_SRCS += \
+D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_ADC_cal.asm \
+D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CodeStartBranch.asm \
+D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_usDelay.asm 
+
+C_SRCS += \
+D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_Adc.c \
+D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CpuTimers.c \
+D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_DefaultIsr.c \
+D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_GlobalVariableDefs.c \
+D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieCtrl.c \
+D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieVect.c \
+D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_SysCtrl.c \
+../sinusWithOUTPots.c 
+
+C_DEPS += \
+./DSP2833x_Adc.d \
+./DSP2833x_CpuTimers.d \
+./DSP2833x_DefaultIsr.d \
+./DSP2833x_GlobalVariableDefs.d \
+./DSP2833x_PieCtrl.d \
+./DSP2833x_PieVect.d \
+./DSP2833x_SysCtrl.d \
+./sinusWithOUTPots.d 
+
+OBJS += \
+./DSP2833x_ADC_cal.obj \
+./DSP2833x_Adc.obj \
+./DSP2833x_CodeStartBranch.obj \
+./DSP2833x_CpuTimers.obj \
+./DSP2833x_DefaultIsr.obj \
+./DSP2833x_GlobalVariableDefs.obj \
+./DSP2833x_PieCtrl.obj \
+./DSP2833x_PieVect.obj \
+./DSP2833x_SysCtrl.obj \
+./DSP2833x_usDelay.obj \
+./sinusWithOUTPots.obj 
+
+ASM_DEPS += \
+./DSP2833x_ADC_cal.d \
+./DSP2833x_CodeStartBranch.d \
+./DSP2833x_usDelay.d 
+
+OBJS__QUOTED += \
+"DSP2833x_ADC_cal.obj" \
+"DSP2833x_Adc.obj" \
+"DSP2833x_CodeStartBranch.obj" \
+"DSP2833x_CpuTimers.obj" \
+"DSP2833x_DefaultIsr.obj" \
+"DSP2833x_GlobalVariableDefs.obj" \
+"DSP2833x_PieCtrl.obj" \
+"DSP2833x_PieVect.obj" \
+"DSP2833x_SysCtrl.obj" \
+"DSP2833x_usDelay.obj" \
+"sinusWithOUTPots.obj" 
+
+C_DEPS__QUOTED += \
+"DSP2833x_Adc.d" \
+"DSP2833x_CpuTimers.d" \
+"DSP2833x_DefaultIsr.d" \
+"DSP2833x_GlobalVariableDefs.d" \
+"DSP2833x_PieCtrl.d" \
+"DSP2833x_PieVect.d" \
+"DSP2833x_SysCtrl.d" \
+"sinusWithOUTPots.d" 
+
+ASM_DEPS__QUOTED += \
+"DSP2833x_ADC_cal.d" \
+"DSP2833x_CodeStartBranch.d" \
+"DSP2833x_usDelay.d" 
+
+ASM_SRCS__QUOTED += \
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_ADC_cal.asm" \
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CodeStartBranch.asm" \
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_usDelay.asm" 
+
+C_SRCS__QUOTED += \
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_Adc.c" \
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CpuTimers.c" \
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_DefaultIsr.c" \
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_GlobalVariableDefs.c" \
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieCtrl.c" \
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieVect.c" \
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_SysCtrl.c" \
+"../sinusWithOUTPots.c" 
+
+

@@ -3972,3 +3972,183 @@ warning #10247-D: creating output section "ramfuncs" without a SECTIONS specific
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_Adc.c"
+
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DSP2833x_Adc.obj' failed
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_Adc.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_Adc.c".
+Compilation terminated.
+gmake: *** [DSP2833x_Adc.obj] Error 1
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CpuTimers.c"
+
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'DSP2833x_CpuTimers.obj' failed
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CpuTimers.c", line 20: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CpuTimers.c".
+Compilation terminated.
+gmake: *** [DSP2833x_CpuTimers.obj] Error 1
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_DefaultIsr.c"
+
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'DSP2833x_DefaultIsr.obj' failed
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_DefaultIsr.c", line 24: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [DSP2833x_DefaultIsr.obj] Error 1
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_GlobalVariableDefs.c"
+
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'DSP2833x_GlobalVariableDefs.obj' failed
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_GlobalVariableDefs.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [DSP2833x_GlobalVariableDefs.obj] Error 1
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'DSP2833x_PieCtrl.obj' failed
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieCtrl.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieCtrl.obj] Error 1
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieVect.c"
+
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'DSP2833x_PieVect.obj' failed
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieVect.c", line 14: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieVect.c".
+Compilation terminated.
+gmake: *** [DSP2833x_PieVect.obj] Error 1
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_SysCtrl.c"
+
+>> Compilation failure
+subdir_rules.mk:65: recipe for target 'DSP2833x_SysCtrl.obj' failed
+"D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_SysCtrl.c", line 19: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [DSP2833x_SysCtrl.obj] Error 1
+'Building file: "../sinusWithOUTPots.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sinusWithOUTPots.d_raw"  "../sinusWithOUTPots.c"
+
+>> Compilation failure
+subdir_rules.mk:79: recipe for target 'sinusWithOUTPots.obj' failed
+"../sinusWithOUTPots.c", line 9: fatal error #1965: cannot open source file "DSP2833x_Device.h"
+1 catastrophic error detected in the compilation of "../sinusWithOUTPots.c".
+Compilation terminated.
+gmake: *** [sinusWithOUTPots.obj] Error 1
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CodeStartBranch.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CodeStartBranch.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CodeStartBranch.asm"
+'Finished building: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CodeStartBranch.asm"'
+ 
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_ADC_cal.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_ADC_cal.asm"
+'Finished building: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_ADC_cal.asm"'
+ 
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_usDelay.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_usDelay.asm"
+'Finished building: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_usDelay.asm"'
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_ADC_cal.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_ADC_cal.asm"
+'Finished building: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_ADC_cal.asm"'
+ 
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CodeStartBranch.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CodeStartBranch.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CodeStartBranch.asm"
+'Finished building: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CodeStartBranch.asm"'
+ 
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_usDelay.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_usDelay.asm"
+'Finished building: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_usDelay.asm"'
+ 
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieCtrl.c"
+'Finished building: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieCtrl.c"'
+ 
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_Adc.c"
+'Finished building: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_Adc.c"'
+ 
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CpuTimers.c"
+'Finished building: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_CpuTimers.c"'
+ 
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieVect.c"
+'Finished building: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_PieVect.c"'
+ 
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_SysCtrl.c"
+'Finished building: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_SysCtrl.c"'
+ 
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_DefaultIsr.c"
+'Finished building: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_DefaultIsr.c"'
+ 
+'Building file: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_GlobalVariableDefs.c"
+'Finished building: "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_GlobalVariableDefs.c"'
+ 
+'Building file: "../sinusWithOUTPots.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7/include" --include_path="D:/courses/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sinusWithOUTPots.d_raw"  "../sinusWithOUTPots.c"
+'Finished building: "../sinusWithOUTPots.c"'
+ 
+'Building target: "lab7.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab7.map" --stack_size=0x400 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="lab7_linkInfo.xml" --rom_model -o "lab7.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./sinusWithOUTPots.obj" "../28335_RAM_lnk.cmd" "D:/courses/PWM_Generation/SinusoidalPWM/link_files/DSP2833x_Headers_nonBIOS.cmd"  -lrts2800_fpu32.lib 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "lab7.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'lab7.out' is up to date.
+
+**** Build Finished ****
