@@ -20,9 +20,9 @@ sinusWithOUTPots.obj: C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include/DSP283
 sinusWithOUTPots.obj: C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include/DSP2833x_SysCtrl.h
 sinusWithOUTPots.obj: C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include/DSP2833x_XIntrupt.h
 sinusWithOUTPots.obj: C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include/DSP2833x_Xintf.h
-sinusWithOUTPots.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include/math.h
-sinusWithOUTPots.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include/linkage.h
-sinusWithOUTPots.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include/_defs.h
+sinusWithOUTPots.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include/math.h
+sinusWithOUTPots.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include/linkage.h
+sinusWithOUTPots.obj: C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include/_defs.h
 
 ../sinusWithOUTPots.c: 
 C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include/DSP2833x_Device.h: 
@@ -44,6 +44,6 @@ C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include/DSP2833x_Sci.h:
 C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include/DSP2833x_SysCtrl.h: 
 C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include/DSP2833x_XIntrupt.h: 
 C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include/DSP2833x_Xintf.h: 
-C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include/math.h: 
-C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include/linkage.h: 
-C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include/_defs.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include/math.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include/linkage.h: 
+C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include/_defs.h: 

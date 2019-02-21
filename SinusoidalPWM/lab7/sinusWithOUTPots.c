@@ -13,13 +13,13 @@
                                                                                                //
 ////////////////////////////////////////////////////////////////////////////////////////////   //
                                                                                           //   //
- long switchingFrequency=40000;// = 48000;      // switching frequency in Hz                       //   //
+ long switchingFrequency=40000;// = 48000;      // switching frequency in Hz              //   //
                                                                                           //   //
- float fundamentalSinusoidalFrequency = 50;  // sinusoidal output frequency in Hz        //   //
+ float fundamentalSinusoidalFrequency = 50;  // sinusoidal output frequency in Hz         //   //
                                                                                           //   //
- double phaseAngle = 0;   // starting angle of sinus                                       //   //
+ double phaseAngle = 0;   // starting angle of sinus                                      //   //
                                                                                           //   //
- float fundamentalSinusoidalMagnitude = 0.9;//Peaktopeak Value of output sinus waveform     //   //
+ float fundamentalSinusoidalMagnitude = 0.9;//Peaktopeak Value of output sinus waveform   //   //
 
  long RisingEdgeDelay = 15;         // Rising Edge Delay = TTBCLK x DBRED(=RisingEdgeDelay)
 

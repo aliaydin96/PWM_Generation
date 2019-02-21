@@ -3321,3 +3321,585 @@ warning #10247-D: creating output section "ramfuncs" without a SECTIONS specific
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../sinusWithOUTPots.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sinusWithOUTPots.d_raw"  "../sinusWithOUTPots.c"
+
+>> Compilation failure
+subdir_rules.mk:86: recipe for target 'sinusWithOUTPots.obj' failed
+"../sinusWithOUTPots.c", line 375: warning #176-D: expression has no effect
+"../sinusWithOUTPots.c", line 377: error #66: expected a ";"
+1 error detected in the compilation of "../sinusWithOUTPots.c".
+gmake: *** [sinusWithOUTPots.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../sinusWithOUTPots.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sinusWithOUTPots.d_raw"  "../sinusWithOUTPots.c"
+"../sinusWithOUTPots.c", line 375: warning #176-D: expression has no effect
+'Finished building: "../sinusWithOUTPots.c"'
+ 
+'Building target: "lab7.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab7.map" --stack_size=0x400 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="lab7_linkInfo.xml" --rom_model -o "lab7.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./Display_ADC.obj" "./sinusWithOUTPots.obj" "../28335_RAM_lnk.cmd" "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd"  -lrts2800_fpu32.lib 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "lab7.out"'
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+ 
+DEL /F  "lab7.hex"  "lab7.out" 
+DEL /F "DSP2833x_ADC_cal.obj" "DSP2833x_Adc.obj" "DSP2833x_CodeStartBranch.obj" "DSP2833x_CpuTimers.obj" "DSP2833x_DefaultIsr.obj" "DSP2833x_GlobalVariableDefs.obj" "DSP2833x_PieCtrl.obj" "DSP2833x_PieVect.obj" "DSP2833x_SysCtrl.obj" "DSP2833x_usDelay.obj" "Display_ADC.obj" "sinusWithOUTPots.obj" 
+DEL /F "DSP2833x_Adc.d" "DSP2833x_CpuTimers.d" "DSP2833x_DefaultIsr.d" "DSP2833x_GlobalVariableDefs.d" "DSP2833x_PieCtrl.d" "DSP2833x_PieVect.d" "DSP2833x_SysCtrl.d" "Display_ADC.d" "sinusWithOUTPots.d" 
+DEL /F "DSP2833x_ADC_cal.d" "DSP2833x_CodeStartBranch.d" "DSP2833x_usDelay.d" 
+Could Not Find C:\Users\Ali\Desktop\PWM_Generation\SinusoidalPWM\lab7\Debug\DSP2833x_ADC_cal.d
+'Finished clean'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CodeStartBranch.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"'
+ 
+'Building file: "../Display_ADC.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Display_ADC.d_raw"  "../Display_ADC.c"
+'Finished building: "../Display_ADC.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"'
+ 
+'Building file: "../sineWithTableGen.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sineWithTableGen.d_raw"  "../sineWithTableGen.c"
+"../sineWithTableGen.c", line 380: warning #176-D: expression has no effect
+'Finished building: "../sineWithTableGen.c"'
+ 
+'Building target: "lab7.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab7.map" --stack_size=0x400 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="lab7_linkInfo.xml" --rom_model -o "lab7.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./Display_ADC.obj" "./sineWithTableGen.obj" "../28335_RAM_lnk.cmd" "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd"  -lrts2800_fpu32.lib 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "lab7.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../sineWithTableGen.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sineWithTableGen.d_raw"  "../sineWithTableGen.c"
+"../sineWithTableGen.c", line 391: warning #176-D: expression has no effect
+'Finished building: "../sineWithTableGen.c"'
+ 
+'Building target: "lab7.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab7.map" --stack_size=0x400 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="lab7_linkInfo.xml" --rom_model -o "lab7.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./Display_ADC.obj" "./sineWithTableGen.obj" "../28335_RAM_lnk.cmd" "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd"  -lrts2800_fpu32.lib 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "lab7.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../sineWithTableGen.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sineWithTableGen.d_raw"  "../sineWithTableGen.c"
+"../sineWithTableGen.c", line 391: warning #176-D: expression has no effect
+'Finished building: "../sineWithTableGen.c"'
+ 
+'Building target: "lab7.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab7.map" --stack_size=0x400 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="lab7_linkInfo.xml" --rom_model -o "lab7.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./Display_ADC.obj" "./sineWithTableGen.obj" "../28335_RAM_lnk.cmd" "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd"  -lrts2800_fpu32.lib 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "lab7.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+ 
+DEL /F  "lab7.hex"  "lab7.out" 
+DEL /F "DSP2833x_ADC_cal.obj" "DSP2833x_Adc.obj" "DSP2833x_CodeStartBranch.obj" "DSP2833x_CpuTimers.obj" "DSP2833x_DefaultIsr.obj" "DSP2833x_GlobalVariableDefs.obj" "DSP2833x_PieCtrl.obj" "DSP2833x_PieVect.obj" "DSP2833x_SysCtrl.obj" "DSP2833x_usDelay.obj" "Display_ADC.obj" "sineWithTableGen.obj" 
+DEL /F "DSP2833x_Adc.d" "DSP2833x_CpuTimers.d" "DSP2833x_DefaultIsr.d" "DSP2833x_GlobalVariableDefs.d" "DSP2833x_PieCtrl.d" "DSP2833x_PieVect.d" "DSP2833x_SysCtrl.d" "Display_ADC.d" "sineWithTableGen.d" 
+DEL /F "DSP2833x_ADC_cal.d" "DSP2833x_CodeStartBranch.d" "DSP2833x_usDelay.d" 
+Could Not Find C:\Users\Ali\Desktop\PWM_Generation\SinusoidalPWM\lab7\Debug\DSP2833x_ADC_cal.d
+'Finished clean'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CodeStartBranch.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm"'
+ 
+'Building file: "../Display_ADC.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Display_ADC.d_raw"  "../Display_ADC.c"
+'Finished building: "../Display_ADC.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"'
+ 
+'Building file: "../sinusWithOUTPots.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sinusWithOUTPots.d_raw"  "../sinusWithOUTPots.c"
+'Finished building: "../sinusWithOUTPots.c"'
+ 
+'Building target: "lab7.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab7.map" --stack_size=0x400 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="lab7_linkInfo.xml" --rom_model -o "lab7.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./Display_ADC.obj" "./sinusWithOUTPots.obj" "../28335_RAM_lnk.cmd" "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd"  -lrts2800_fpu32.lib 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "lab7.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+ 
+DEL /F  "lab7.hex"  "lab7.out" 
+DEL /F "DSP2833x_ADC_cal.obj" "DSP2833x_Adc.obj" "DSP2833x_CodeStartBranch.obj" "DSP2833x_CpuTimers.obj" "DSP2833x_DefaultIsr.obj" "DSP2833x_GlobalVariableDefs.obj" "DSP2833x_PieCtrl.obj" "DSP2833x_PieVect.obj" "DSP2833x_SysCtrl.obj" "DSP2833x_usDelay.obj" "Display_ADC.obj" "sinusWithOUTPots.obj" 
+DEL /F "DSP2833x_Adc.d" "DSP2833x_CpuTimers.d" "DSP2833x_DefaultIsr.d" "DSP2833x_GlobalVariableDefs.d" "DSP2833x_PieCtrl.d" "DSP2833x_PieVect.d" "DSP2833x_SysCtrl.d" "Display_ADC.d" "sinusWithOUTPots.d" 
+DEL /F "DSP2833x_ADC_cal.d" "DSP2833x_CodeStartBranch.d" "DSP2833x_usDelay.d" 
+Could Not Find C:\Users\Ali\Desktop\PWM_Generation\SinusoidalPWM\lab7\Debug\DSP2833x_ADC_cal.d
+'Finished clean'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CodeStartBranch.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm"'
+ 
+'Building file: "../Display_ADC.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Display_ADC.d_raw"  "../Display_ADC.c"
+'Finished building: "../Display_ADC.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"'
+ 
+'Building file: "../sineWithTableGen.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sineWithTableGen.d_raw"  "../sineWithTableGen.c"
+"../sineWithTableGen.c", line 391: warning #176-D: expression has no effect
+'Finished building: "../sineWithTableGen.c"'
+ 
+'Building target: "lab7.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab7.map" --stack_size=0x400 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="lab7_linkInfo.xml" --rom_model -o "lab7.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./Display_ADC.obj" "./sineWithTableGen.obj" "../28335_RAM_lnk.cmd" "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd"  -lrts2800_fpu32.lib 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "lab7.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../sineWithTableGen.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sineWithTableGen.d_raw"  "../sineWithTableGen.c"
+"../sineWithTableGen.c", line 392: warning #176-D: expression has no effect
+'Finished building: "../sineWithTableGen.c"'
+ 
+'Building target: "lab7.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab7.map" --stack_size=0x400 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="lab7_linkInfo.xml" --rom_model -o "lab7.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./Display_ADC.obj" "./sineWithTableGen.obj" "../28335_RAM_lnk.cmd" "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd"  -lrts2800_fpu32.lib 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+"../28335_RAM_lnk.cmd", line 139: error #10099-D: program will not fit into available memory.  run placement with alignment/blocking fails for section ".ebss" size 0x1322 page 1.  Available memory ranges:
+   RAML4        size: 0x1000       unused: 0x1000       max hole: 0x1000    
+error #10010: errors encountered during linking; "lab7.out" not built
+
+>> Compilation failure
+makefile:153: recipe for target 'lab7.out' failed
+gmake[1]: *** [lab7.out] Error 1
+makefile:149: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../sineWithTableGen.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sineWithTableGen.d_raw"  "../sineWithTableGen.c"
+"../sineWithTableGen.c", line 392: warning #176-D: expression has no effect
+'Finished building: "../sineWithTableGen.c"'
+ 
+'Building target: "lab7.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab7.map" --stack_size=0x400 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="lab7_linkInfo.xml" --rom_model -o "lab7.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./Display_ADC.obj" "./sineWithTableGen.obj" "../28335_RAM_lnk.cmd" "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd"  -lrts2800_fpu32.lib 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+"../28335_RAM_lnk.cmd", line 139: error #10099-D: program will not fit into available memory.  run placement with alignment/blocking fails for section ".ebss" size 0x1322 page 1.  Available memory ranges:
+   RAML4        size: 0x1000       unused: 0x1000       max hole: 0x1000    
+error #10010: errors encountered during linking; "lab7.out" not built
+
+>> Compilation failure
+makefile:153: recipe for target 'lab7.out' failed
+gmake[1]: *** [lab7.out] Error 1
+makefile:149: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../sineWithTableGen.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sineWithTableGen.d_raw"  "../sineWithTableGen.c"
+"../sineWithTableGen.c", line 392: warning #176-D: expression has no effect
+'Finished building: "../sineWithTableGen.c"'
+ 
+'Building target: "lab7.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab7.map" --stack_size=0x400 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="lab7_linkInfo.xml" --rom_model -o "lab7.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./Display_ADC.obj" "./sineWithTableGen.obj" "../28335_RAM_lnk.cmd" "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd"  -lrts2800_fpu32.lib 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "lab7.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../sineWithTableGen.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sineWithTableGen.d_raw"  "../sineWithTableGen.c"
+"../sineWithTableGen.c", line 392: warning #176-D: expression has no effect
+'Finished building: "../sineWithTableGen.c"'
+ 
+'Building target: "lab7.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab7.map" --stack_size=0x400 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="lab7_linkInfo.xml" --rom_model -o "lab7.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./Display_ADC.obj" "./sineWithTableGen.obj" "../28335_RAM_lnk.cmd" "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd"  -lrts2800_fpu32.lib 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "lab7.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+ 
+DEL /F  "lab7.hex"  "lab7.out" 
+DEL /F "DSP2833x_ADC_cal.obj" "DSP2833x_Adc.obj" "DSP2833x_CodeStartBranch.obj" "DSP2833x_CpuTimers.obj" "DSP2833x_DefaultIsr.obj" "DSP2833x_GlobalVariableDefs.obj" "DSP2833x_PieCtrl.obj" "DSP2833x_PieVect.obj" "DSP2833x_SysCtrl.obj" "DSP2833x_usDelay.obj" "Display_ADC.obj" "sineWithTableGen.obj" 
+DEL /F "DSP2833x_Adc.d" "DSP2833x_CpuTimers.d" "DSP2833x_DefaultIsr.d" "DSP2833x_GlobalVariableDefs.d" "DSP2833x_PieCtrl.d" "DSP2833x_PieVect.d" "DSP2833x_SysCtrl.d" "Display_ADC.d" "sineWithTableGen.d" 
+DEL /F "DSP2833x_ADC_cal.d" "DSP2833x_CodeStartBranch.d" "DSP2833x_usDelay.d" 
+Could Not Find C:\Users\Ali\Desktop\PWM_Generation\SinusoidalPWM\lab7\Debug\DSP2833x_ADC_cal.d
+'Finished clean'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_ADC_cal.asm"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CodeStartBranch.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CodeStartBranch.asm"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_Adc.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_CpuTimers.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_DefaultIsr.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_DefaultIsr.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieCtrl.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieVect.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_PieVect.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_usDelay.asm"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"'
+ 
+'Building file: "../Display_ADC.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="Display_ADC.d_raw"  "../Display_ADC.c"
+'Finished building: "../Display_ADC.c"'
+ 
+'Building file: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d_raw"  "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"
+'Finished building: "C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/source1/DSP2833x_SysCtrl.c"'
+ 
+'Building file: "../sinusWithOUTPots.c"'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/Ali/Desktop/PWM_Generation/SinusoidalPWM/lab7" --include_path="C:/tidcs/c28/IQmath/v15a/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_common/include" --include_path="C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/include" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="sinusWithOUTPots.d_raw"  "../sinusWithOUTPots.c"
+'Finished building: "../sinusWithOUTPots.c"'
+ 
+'Building target: "lab7.out"'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab7.map" --stack_size=0x400 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.10.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="lab7_linkInfo.xml" --rom_model -o "lab7.out" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./Display_ADC.obj" "./sinusWithOUTPots.obj" "../28335_RAM_lnk.cmd" "C:/tidcs/c28/DSP2833x/v131/DSP2833x_headers/cmd/DSP2833x_Headers_nonBIOS.cmd"  -lrts2800_fpu32.lib 
+<Linking>
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+'Finished building target: "lab7.out"'
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab7 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'lab7.out' is up to date.
+
+**** Build Finished ****

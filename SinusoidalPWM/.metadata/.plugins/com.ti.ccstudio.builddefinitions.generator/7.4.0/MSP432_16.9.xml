@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.0"?>
 
-<!-- Auto-generated from: D:\powerlab\.metadata\.plugins\com.ti.ccstudio.builddefinitions.generator\native\MSP432_16.9.9.LTS.xml -->
+<!-- Auto-generated from: C:\Users\Ali\Desktop\PWM_Generation\SinusoidalPWM\.metadata\.plugins\com.ti.ccstudio.builddefinitions.generator\native\MSP432_16.9.10.LTS.xml -->
 
 <plugin>
 
@@ -1511,6 +1511,7 @@ unpacked - When neither of the above are specified, the underlying type is chose
 				name="Enable dynamic stack overflow checking (--stack_overflow_check, -mo)"
 				tip="Aliases: --stack_overflow_check, -mo&lt;BODY&gt;Enable dynamic stack overflow checking"
 				category="com.ti.ccstudio.buildDefinitions.MSP432_16.9.cat.compilerID.MODEL"
+				applicabilityCalculator="com.ti.ccstudio.project.core.internal.options.DeprecatedOptionApplicabilityCalculator"
 				defaultValue="false"
 				command="--stack_overflow_check"
 				valueType="boolean"/>
@@ -4526,6 +4527,7 @@ NOTE: User can specify --retain='*(*)' to retain all the sections from all the i
 		<option id="com.ti.ccstudio.buildDefinitions.MSP432_16.9.compilerID.PROFILE__POWER" hide="true"><deprecate severity="5" diagnostic="The --profile:power option is no longer supported."/></option>
 		<option id="com.ti.ccstudio.buildDefinitions.MSP432_16.9.compilerID.SIGNED_CHARS" hide="true"><deprecate severity="3" diagnostic="--signed_chars is deprecated and will be removed in a subsequent release. Use --plain_char=signed."/></option>
 		<option id="com.ti.ccstudio.buildDefinitions.MSP432_16.9.compilerID.SMALL_ENUM" hide="true"><deprecate severity="3" diagnostic="--small_enum is deprecated and will be removed in a subsequent release. Use --enum_type=packed instead."/></option>
+		<option id="com.ti.ccstudio.buildDefinitions.MSP432_16.9.compilerID.STACK_OVERFLOW_CHECK" hide="true"><deprecate severity="3" diagnostic="--stack_overflow_check is deprecated and will be removed in a subsequent release."/></option>
 		<option id="com.ti.ccstudio.buildDefinitions.MSP432_16.9.compilerID.THUMB_STATE" hide="true"><deprecate severity="3" diagnostic="--thumb_state is deprecated and will be removed in a subsequent release. Use --code_state=16 instead."/></option>
 		<option id="com.ti.ccstudio.buildDefinitions.MSP432_16.9.compilerID.MULTITHREAD" chain="--use_libc_tls "></option>
 		<option id="com.ti.ccstudio.buildDefinitions.MSP432_16.9.compilerID.OPT_FOR_CACHE" hide="true"><deprecate severity="3" diagnostic="--opt_for_cache is deprecated and will be removed in a subsequent release."/></option>
